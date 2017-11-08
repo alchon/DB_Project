@@ -114,7 +114,7 @@ public class Hotel extends JFrame implements ActionListener{
         statuslabel.setFont(new Font("Sans Serif", Font.BOLD, 20));
         statuslabel.setBounds(450,120,150,40);
 
-        SimpleDateFormat date = new SimpleDateFormat("(yyyy-mm-dd)",Locale.KOREA);
+        SimpleDateFormat date = new SimpleDateFormat("(yyyy-MM-dd)",Locale.KOREA);
         Date currentTime = new Date();
         String Time = date.format(currentTime);
         JLabel datelabel = new JLabel(Time, JLabel.CENTER);
@@ -151,7 +151,11 @@ public class Hotel extends JFrame implements ActionListener{
     }
 
     private void AddSearch() {
+        JLabel label = new JLabel("등록/조회",JLabel.CENTER);
+        label.setFont(new Font("Sans Serif", Font.BOLD, 20));
+        label.setBounds(20,450,150,40);
 
+        panel.add(label);
     }
 
     public static void main(String[] args) {
