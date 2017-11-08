@@ -26,6 +26,7 @@ public class Hotel extends JFrame implements ActionListener{
         AddBook();
         AddStatus();
         AddSearch();
+        fuckyou();
         add(panel);
         setVisible(true);
     }
@@ -151,11 +152,31 @@ public class Hotel extends JFrame implements ActionListener{
     }
 
     private void AddSearch() {
-        JLabel label = new JLabel("등록/조회",JLabel.CENTER);
-        label.setFont(new Font("Sans Serif", Font.BOLD, 20));
-        label.setBounds(20,450,150,40);
+        JLabel searchlabel = new JLabel("등록/조회",JLabel.CENTER);
+        searchlabel.setFont(new Font("Sans Serif", Font.BOLD, 20));
+        searchlabel.setBounds(20,450,150,40);
+        panel.add(searchlabel);
+        JTabbedPane tpane = new JTabbedPane();
+        JPanel customer_panel = new JPanel();
+        JPanel room_panel = new JPanel();
+        JPanel client_panel = new JPanel();
+        tpane.add("고객",customer_panel);
+        tpane.add("객실", room_panel);
+        tpane.add("직원", client_panel);
+        tpane.setBounds(100,500,700,250);
+//        panel.add(tpane);
+    }
 
-        panel.add(label);
+    private void fuckyou() {
+        JLabel namelabel = new JLabel("고객명", JLabel.LEFT);
+        namelabel.setFont(new Font("Sans Serif", Font.BOLD, 15));
+        namelabel.setBounds(100,550,50,40);
+        JTextField nametext = new JTextField(6);
+        nametext.setBounds(180,550,150,40);
+        JButton registerbtn = new JButton("회원가입");
+        registerbtn.setBounds();
+        panel.add(namelabel);
+        panel.add(nametext);
     }
 
     public static void main(String[] args) {
