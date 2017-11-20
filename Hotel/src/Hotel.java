@@ -174,9 +174,17 @@ public class Hotel extends JFrame implements ActionListener{
         JTextField nametext = new JTextField(6);
         nametext.setBounds(180,550,150,40);
         JButton registerbtn = new JButton("회원가입");
-        registerbtn.setBounds();
+        registerbtn.setBounds(120,620,100,30);
+        JButton searchbtn = new JButton("조회");
+        searchbtn.setBounds(230,620,100,30);
+        JTextArea infoarea = new JTextArea();
+        infoarea.setEditable(false);
+        infoarea.setBounds(380,530,400,150);
         panel.add(namelabel);
         panel.add(nametext);
+        panel.add(registerbtn);
+        panel.add(searchbtn);
+        panel.add(infoarea);
     }
 
     public static void main(String[] args) {
