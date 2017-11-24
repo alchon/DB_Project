@@ -8,7 +8,7 @@ import java.util.*;
 import java.lang.*;
 
 /**
- * @author Seo Hyeon-Beom
+ * @author Seo Hyeon-Beom (2016003590)
  */
 
 public class Hotel extends JFrame implements ActionListener{
@@ -22,11 +22,11 @@ public class Hotel extends JFrame implements ActionListener{
         setLayout(null);
         setResizable(false);
         AddPanel();
+        Addmenu();
         AddTitle();
         AddBook();
         AddStatus();
         AddSearch();
-        fuckyou();
         add(panel);
         setVisible(true);
     }
@@ -35,6 +35,11 @@ public class Hotel extends JFrame implements ActionListener{
         panel = new JPanel();
         panel.setLayout(null);
         panel.setBounds(0, 0, 900, 800);
+    }
+
+    private void Addmenu() {
+        JMenuBar menuBar = new JMenuBar();
+        JMenu menu = new JMenu("File");
     }
 
     private void AddTitle() {
@@ -71,7 +76,7 @@ public class Hotel extends JFrame implements ActionListener{
             day[i-1] = String.valueOf(i);
         }
 
-        JComboBox daybox = new JComboBox(day);
+        JComboBox<String> daybox = new JComboBox<String>(day);
         daybox.setBounds(250,260,150,30);
 
         JLabel roomlabel = new JLabel("객실",JLabel.LEFT);
@@ -88,7 +93,7 @@ public class Hotel extends JFrame implements ActionListener{
             }
         }
 
-        JComboBox roombox = new JComboBox(room);
+        JComboBox<String> roombox = new JComboBox<String>(room);
         roombox.setBounds(250,300,150,30);
 
         JButton registerbtn = new JButton("예약 등록/변경");
@@ -157,34 +162,75 @@ public class Hotel extends JFrame implements ActionListener{
         searchlabel.setBounds(20,450,150,40);
         panel.add(searchlabel);
         JTabbedPane tpane = new JTabbedPane();
+
         JPanel customer_panel = new JPanel();
+        customer_panel.setLayout(null);
+        JLabel customer_namelabel = new JLabel("고객명", JLabel.LEFT);
+        customer_namelabel.setFont(new Font("Sans Serif", Font.BOLD, 15));
+        customer_namelabel.setBounds(40,40,50,40);
+        JTextField customer_nametext = new JTextField(6);
+        customer_nametext.setBounds(120,40,150,40);
+        JButton customer_registerbtn = new JButton("회원가입");
+        customer_registerbtn.setBounds(60,110,100,30);
+        JButton customer_searchbtn = new JButton("조회");
+        customer_searchbtn.setBounds(170,110,100,30);
+        JTextArea customer_infoarea = new JTextArea();
+        customer_infoarea.setEditable(false);
+        customer_infoarea.setBounds(320,20,400,150);
+        customer_panel.add(customer_namelabel);
+        customer_panel.add(customer_nametext);
+        customer_panel.add(customer_registerbtn);
+        customer_panel.add(customer_searchbtn);
+        customer_panel.add(customer_infoarea);
+
         JPanel room_panel = new JPanel();
+        room_panel.setLayout(null);
+        JLabel roomlabel = new JLabel("객실", JLabel.LEFT);
+        roomlabel.setFont(new Font("Sans Serif", Font.BOLD, 15));
+        roomlabel.setBounds(40,40,50,40);
+        String[] room = new String[20];
+        int index = 0;
+        for (int i=1; i<=2; i++) {
+            for (int j=1; j<= 10; j++) {
+                int tmp = (i*100) + j;
+                room[index] = String.valueOf(tmp);
+                index ++;
+            }
+        }
+        JComboBox<String> roombox = new JComboBox<String>(room);
+        roombox.setBounds(120,40,150,40);
+        JTextArea room_infoarea = new JTextArea();
+        room_infoarea.setEditable(false);
+        room_infoarea.setBounds(320,20,400,150);
+        room_panel.add(roomlabel);
+        room_panel.add(roombox);
+        room_panel.add(room_infoarea);
+
         JPanel client_panel = new JPanel();
+        client_panel.setLayout(null);
+        JLabel client_namelabel = new JLabel("직원명", JLabel.LEFT);
+        client_namelabel.setFont(new Font("Sans Serif", Font.BOLD, 15));
+        client_namelabel.setBounds(40,40,50,40);
+        JTextField client_nametext = new JTextField(6);
+        client_nametext.setBounds(120,40,150,40);
+        JButton client_registerbtn = new JButton("직원등록");
+        client_registerbtn.setBounds(60,110,100,30);
+        JButton client_searchbtn = new JButton("조회");
+        client_searchbtn.setBounds(170,110,100,30);
+        JTextArea client_infoarea = new JTextArea();
+        client_infoarea.setEditable(false);
+        client_infoarea.setBounds(320,20,400,150);
+        client_panel.add(client_namelabel);
+        client_panel.add(client_nametext);
+        client_panel.add(client_registerbtn);
+        client_panel.add(client_searchbtn);
+        client_panel.add(client_infoarea);
+
         tpane.add("고객",customer_panel);
         tpane.add("객실", room_panel);
         tpane.add("직원", client_panel);
-        tpane.setBounds(100,500,700,250);
-//        panel.add(tpane);
-    }
-
-    private void fuckyou() {
-        JLabel namelabel = new JLabel("고객명", JLabel.LEFT);
-        namelabel.setFont(new Font("Sans Serif", Font.BOLD, 15));
-        namelabel.setBounds(100,550,50,40);
-        JTextField nametext = new JTextField(6);
-        nametext.setBounds(180,550,150,40);
-        JButton registerbtn = new JButton("회원가입");
-        registerbtn.setBounds(120,620,100,30);
-        JButton searchbtn = new JButton("조회");
-        searchbtn.setBounds(230,620,100,30);
-        JTextArea infoarea = new JTextArea();
-        infoarea.setEditable(false);
-        infoarea.setBounds(380,530,400,150);
-        panel.add(namelabel);
-        panel.add(nametext);
-        panel.add(registerbtn);
-        panel.add(searchbtn);
-        panel.add(infoarea);
+        tpane.setBounds(60,500,780,250);
+        panel.add(tpane);
     }
 
     public static void main(String[] args) {
