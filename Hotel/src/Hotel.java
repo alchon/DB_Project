@@ -108,7 +108,7 @@ public class Hotel extends JFrame implements ActionListener{
     private JButton not_customerbtn = new JButton("확인");
     // 날짜가 중복
     private JFrame override_date_fs = new JFrame("경고");
-    private JLabel override_dateLabel = new JLabel("날짜가 중복됩니다.");
+    private JLabel override_dateLabel = new JLabel("이미 존재합니다.");
     private JButton override_datebtn = new JButton("확인");
     // 예약이 없
     private JFrame notreserve_fs = new JFrame("경고");
@@ -122,6 +122,10 @@ public class Hotel extends JFrame implements ActionListener{
     private JFrame reserve_cancel_fs = new JFrame("안내");
     private JLabel reserve_cancelLabel = new JLabel("예약 취소 되었습니다.");
     private JButton reserve_cancelbtn = new JButton("확인");
+    // 가입 성공
+    private JFrame registerok_fs = new JFrame("안내");
+    private JLabel registerokLabel = new JLabel("등록 되었습니다.");
+    private JButton registerokbtn = new JButton("확인");
 
 
     private Hotel() {
@@ -289,6 +293,7 @@ public class Hotel extends JFrame implements ActionListener{
     }
 
     private void AddSearch() {
+
         searchlabel.setFont(new Font("Sans Serif", Font.BOLD, 20));
         searchlabel.setBounds(20,450,150,40);
         panel.add(searchlabel);
@@ -342,6 +347,10 @@ public class Hotel extends JFrame implements ActionListener{
         client_panel.add(client_infoarea);
 
         customer_registerbtn.addActionListener(this);
+        customer_searchbtn.addActionListener(this);
+        client_registerbtn.addActionListener(this);
+        roombox2.addActionListener(this);
+        client_searchbtn.addActionListener(this);
         client_registerbtn.addActionListener(this);
 
         tpane.add("고객",customer_panel);
@@ -409,6 +418,7 @@ public class Hotel extends JFrame implements ActionListener{
         c.add(new_customer_registerbtn);
         c.add(new_customer_cancelbtn);
 
+        new_customer_registerbtn.addActionListener(this);
         new_customer_cancelbtn.addActionListener(this);
 
         customer_fs.setSize(400,400);
@@ -475,6 +485,7 @@ public class Hotel extends JFrame implements ActionListener{
         c.add(new_client_cancelbtn);
 
         new_client_cancelbtn.addActionListener(this);
+        new_client_registerbtn.addActionListener(this);
 
         client_fs.setSize(400,400);
         client_fs.setLocation(300,200);
@@ -586,6 +597,27 @@ public class Hotel extends JFrame implements ActionListener{
         reserve_cancel_fs.setVisible(true);
     }
 
+    private void registerok() {
+        registerok_fs.addWindowListener(new WindowAdapter() {
+            @Override
+            public void windowClosing(WindowEvent e) {
+                registerok_fs.setVisible(false);
+                registerok_fs.dispose();
+            }
+        });
+        registerok_fs.setLayout(null);
+        Container c = registerok_fs.getContentPane();
+        registerokLabel.setFont(new Font("Sans Serif", Font.PLAIN, 15));
+        registerokLabel.setBounds(70,20,200,20);
+        registerokbtn.setBounds(100,70,100,40);
+        c.add(registerokLabel);
+        c.add(registerokbtn);
+        registerokbtn.addActionListener(this);
+        registerok_fs.setSize(300,150);
+        registerok_fs.setLocation(300,200);
+        registerok_fs.setVisible(true);
+    }
+
     @Override
     public void actionPerformed(ActionEvent e) {
         if(e.getSource() == menuItem) {
@@ -634,6 +666,10 @@ public class Hotel extends JFrame implements ActionListener{
             new_reserve_fs.setVisible(false);
             new_reserve_fs.dispose();
         }
+        if(e.getSource().equals(registerokbtn)) {
+            registerok_fs.setVisible(false);
+            registerok_fs.dispose();
+        }
         if(e.getSource().equals(registerbtn)) {
             reservation();
             reserveStatus();
@@ -642,7 +678,21 @@ public class Hotel extends JFrame implements ActionListener{
             reservationcancel();
             reserveStatus();
         }
-
+        if(e.getSource().equals(customer_searchbtn)){
+            customer_search();
+        }
+        if(e.getSource().equals(new_customer_registerbtn)) {
+            customer_register();
+        }
+        if(e.getSource().equals(roombox2)) {
+            room_search();
+        }
+        if(e.getSource().equals(client_searchbtn)) {
+            client_search();
+        }
+        if(e.getSource().equals(new_client_registerbtn)) {
+            client_register();
+        }
     }
 
     private void connectDB() {
@@ -710,7 +760,7 @@ public class Hotel extends JFrame implements ActionListener{
                 sqlStr = "create table RESERVATION(" +
                         " customer_name  varchar2(20)," +
                         " client_name   varchar2(20)," +
-                        " days  varchar2(20)," +
+                        " days  INT ," +
                         " room  varchar2(20)," +
                         " checkin    date," +
                         " foreign key (customer_name) REFERENCES CUSTOMER (NAME)," +
@@ -905,7 +955,7 @@ public class Hotel extends JFrame implements ActionListener{
                         rs = stmt.executeQuery();
                         rs.next();
                         String clientname = rs.getString("NAME");
-                        sqlStr = "insert into RESERVATION values('"+name+"','"+clientname+"','"+days+"','"+room+"','"+checkin+"')";
+                        sqlStr = "insert into RESERVATION values('"+name+"','"+clientname+"',"+days+",'"+room+"','"+checkin+"')";
                         stmt = dbTest.prepareStatement(sqlStr);
                         rs = stmt.executeQuery();
                         new_reserve();
@@ -932,7 +982,7 @@ public class Hotel extends JFrame implements ActionListener{
                 not_reserve();
             }
             else {
-                sqlStr = "delete from RESERVATION where customer_name = '"+name+"'and days='"+days+"'and room='"+room+"'and checkin='"+checkin+"'";
+                sqlStr = "delete from RESERVATION where customer_name = '"+name+"'and days="+days+"and room='"+room+"'and checkin='"+checkin+"'";
                 stmt = dbTest.prepareStatement(sqlStr);
                 rs = stmt.executeQuery();
                 reserve_cancel();
@@ -1001,7 +1051,7 @@ public class Hotel extends JFrame implements ActionListener{
                         formattmp[2] = "0"+formattmp[2];
                     }
                     comparequerydate[i] = formattmp[0]+"-"+formattmp[1]+"-"+formattmp[2];
-                    System.out.println(comparequerydate[i]);
+//                    System.out.println(comparequerydate[i]);
                     if(comparequerydate[i].equals(Time)) {
                         for(int j=0; j<20; j++) {
                             if (room[j].getText().equals(query_room)) {
@@ -1023,6 +1073,249 @@ public class Hotel extends JFrame implements ActionListener{
         for(int i=0; i<20; i++) {
             room[i].setBackground(null);
             room[i].setForeground(null);
+        }
+    }
+
+    private void customer_search() {
+        customer_infoarea.selectAll();
+        customer_infoarea.replaceSelection("");
+        String name = customer_nametext.getText();
+        try {
+            String sqlStr = "select count(*) from CUSTOMER where name='"+name+"'";
+            PreparedStatement stmt = dbTest.prepareStatement(sqlStr);
+            ResultSet rs = stmt.executeQuery();
+            rs.next();
+            if(rs.getString("count(*)").equals("0")) {
+                customer_infoarea.append("검색결과없음");
+            }
+            else {
+                sqlStr = "select * from CUSTOMER where name='"+name+"'";
+                stmt = dbTest.prepareStatement(sqlStr);
+                rs = stmt.executeQuery();
+                rs.next();
+                String cus_name = rs.getString("name");
+                String cus_sex = rs.getString("sex");
+                String cus_address = rs.getString("address");
+                String cus_phone = rs.getString("phone");
+                customer_infoarea.append("고객명: "+cus_name+"\n");
+                customer_infoarea.append("성별: "+cus_sex+"\n");
+                customer_infoarea.append("주소: "+cus_address+"\n");
+                customer_infoarea.append("연락쳐: "+cus_phone+"\n");
+
+                sqlStr = "select count(*) from RESERVATION where customer_name='"+cus_name+"'";
+                stmt = dbTest.prepareStatement(sqlStr);
+                rs = stmt.executeQuery();
+                rs.next();
+
+                if(rs.getString("count(*)").equals("0")) {
+                    customer_infoarea.append("총 투숙기간: 0 \n");
+                    customer_infoarea.append("최근 투숙일: x \n");
+                    customer_infoarea.append("객실전담직원(최다): x \t(0회)");
+                }
+                else {
+                    sqlStr = "select sum(days) from CUSTOMER natural join RESERVATION where CUSTOMER.name = RESERVATION.customer_name and name='"+name+"'";
+                    stmt = dbTest.prepareStatement(sqlStr);
+                    rs = stmt.executeQuery();
+                    rs.next();
+                    String sumdays = rs.getString("sum(days)");
+                    sqlStr = "select checkin from CUSTOMER natural join RESERVATION where CUSTOMER.name = RESERVATION.customer_name and name='"+name+"' order by checkin DESC";
+                    stmt = dbTest.prepareStatement(sqlStr);
+                    rs = stmt.executeQuery();
+                    rs.next();
+                    String recent = rs.getString("checkin");
+                    String[] recenttmp = recent.split(" ");
+                    recent = recenttmp[0];
+                    sqlStr = "select client_name, count(client_name) from CUSTOMER natural join RESERVATION where CUSTOMER.name = RESERVATION.customer_name and name='"+name+"' group by client_name order by count(client_name) DESC";
+                    stmt = dbTest.prepareStatement(sqlStr);
+                    rs = stmt.executeQuery();
+                    rs.next();
+                    String client_name = rs.getString("client_name");
+                    String client_count = rs.getString("count(client_name)");
+
+                    customer_infoarea.append("총 투숙기간: "+sumdays+"\n");
+                    customer_infoarea.append("최근 투숙일: "+recent+"\n");
+                    customer_infoarea.append("객실전담직원(최다): "+client_name+"\t("+client_count+"회)");
+                }
+            }
+            stmt.close();
+            rs.close();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
+    private void customer_register() {
+        String name = new_customer_nametext.getText();
+        String sex = (String) new_customer_sexbox.getSelectedItem();
+        String address = (String) new_customer_addressbox.getSelectedItem();
+        String phone = new_customer_phonetext.getText();
+        try {
+            String sqlStr = "select count(*) from CUSTOMER where name ='"+name+"'";
+            PreparedStatement stmt = dbTest.prepareStatement(sqlStr);
+            ResultSet rs = stmt.executeQuery();
+            rs.next();
+            if(rs.getString("count(*)").equals("0")) {
+                sqlStr = "insert into CUSTOMER values('"+name+"','"+sex+"','"+address+"','"+phone+"')";
+                stmt = dbTest.prepareStatement(sqlStr);
+                rs = stmt.executeQuery();
+                registerok();
+            }
+            else {
+                override_date();
+            }
+            stmt.close();
+            rs.close();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
+    private void room_search() {
+        room_infoarea.selectAll();
+        room_infoarea.replaceSelection("");
+        String room_box = (String) roombox2.getSelectedItem();
+        try {
+            String sqlStr = "select * from ROOM where num='"+room_box+"'";
+            PreparedStatement stmt = dbTest.prepareStatement(sqlStr);
+            ResultSet rs = stmt.executeQuery();
+            rs.next();
+            String room_num = rs.getString("num");
+            String room_capacity = rs.getString("capacity");
+            String room_type = rs.getString("type");
+            String room_status;
+            int index=0;
+            int index2=0;
+            for (int i=1; i<=2; i++) {
+                for (int j=1; j<= 10; j++) {
+                    int tmp = (i*100) + j;
+                    if(tmp == Integer.parseInt(room_num)) {
+                        index2 = index;
+                    }
+                    index++;
+                }
+            }
+            if(room[index2].getBackground().equals(Color.yellow)) {
+                room_status = "투숙중";
+            }
+            else {
+                room_status = "빈방";
+            }
+            sqlStr = "select count(*) from RESERVATION where room='"+room_box+"'";
+            stmt = dbTest.prepareStatement(sqlStr);
+            rs = stmt.executeQuery();
+            rs.next();
+            room_infoarea.append("방번호: "+room_num+"\n");
+            room_infoarea.append("수용인원: "+room_capacity+"\n");
+            room_infoarea.append("타입: "+room_type+"\n");
+            room_infoarea.append("상태: "+room_status+"\n");
+            if(rs.getString("count(*)").equals("0")) {
+                room_infoarea.append("투숙고객(최다): x   (0회)\n");
+                room_infoarea.append("객실전담직원(최다): x     (0회)");
+            }
+            else {
+                sqlStr = "select customer_name, count(customer_name) from CUSTOMER natural join RESERVATION where CUSTOMER.name = RESERVATION.customer_name and room='"+room_box+"' group by customer_name order by count(customer_name) DESC";
+                stmt = dbTest.prepareStatement(sqlStr);
+                rs = stmt.executeQuery();
+                rs.next();
+                String customer_name = rs.getString("customer_name");
+                String customer_count = rs.getString("count(customer_name)");
+                sqlStr = "select client_name, count(client_name) from CLIENT natural join RESERVATION where CLIENT.name = RESERVATION.client_name and room='"+room_box+"' group by client_name order by count(client_name) DESC";
+                stmt = dbTest.prepareStatement(sqlStr);
+                rs = stmt.executeQuery();
+                rs.next();
+                String client_name = rs.getString("client_name");
+                String client_count = rs.getString("count(client_name)");
+                room_infoarea.append("투숙고객(최다): "+customer_name+"\t("+customer_count+"회)\n");
+                room_infoarea.append("객실전담직원(최다): "+client_name+"\t("+client_count+"회)");
+            }
+            stmt.close();
+            rs.close();
+        }catch(SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
+    private void client_search() {
+        client_infoarea.selectAll();
+        client_infoarea.replaceSelection("");
+        String name = client_nametext.getText();
+        try {
+            String sqlStr = "select count(*) from CLIENT where name='"+name+"'";
+            PreparedStatement stmt = dbTest.prepareStatement(sqlStr);
+            ResultSet rs = stmt.executeQuery();
+            rs.next();
+            if(rs.getString("count(*)").equals("0")) {
+                client_infoarea.append("검색결과없음");
+            }
+            else {
+                sqlStr = "select * from CLIENT where name='"+name+"'";
+                stmt = dbTest.prepareStatement(sqlStr);
+                rs = stmt.executeQuery();
+                rs.next();
+                String cli_name = rs.getString("name");
+                String cli_sex = rs.getString("sex");
+                String cli_address = rs.getString("address");
+                String cli_phone = rs.getString("phone");
+                client_infoarea.append("직원명: "+cli_name+"\n");
+                client_infoarea.append("성별: "+cli_sex+"\n");
+                client_infoarea.append("주소: "+cli_address+"\n");
+                client_infoarea.append("연락처: "+cli_phone+"\n");
+
+                sqlStr = "select count(*) from RESERVATION where client_name='"+cli_name+"'";
+                stmt = dbTest.prepareStatement(sqlStr);
+                rs = stmt.executeQuery();
+                rs.next();
+                if(rs.getString("count(*)").equals("0")) {
+                    client_infoarea.append("접대 고객(최다): x    (0회)\n");
+                    client_infoarea.append("관리 객실(최다): x    (0회)");
+                }
+                else {
+                    sqlStr = "select customer_name, count(customer_name) from CLIENT natural join RESERVATION where CLIENT.name = RESERVATION.client_name and client_name='"+cli_name+"' group by customer_name order by count(customer_name) DESC";
+                    stmt = dbTest.prepareStatement(sqlStr);
+                    rs = stmt.executeQuery();
+                    rs.next();
+                    String cus_name = rs.getString("customer_name");
+                    String cus_count = rs.getString("count(customer_name)");
+                    sqlStr = "select room, count(room) from CLIENT natural join RESERVATION where CLIENT.name = RESERVATION.client_name and client_name='"+cli_name+"' group by room order by count(room) DESC";
+                    stmt = dbTest.prepareStatement(sqlStr);
+                    rs = stmt.executeQuery();
+                    rs.next();
+                    String room_num = rs.getString("room");
+                    String room_count = rs.getString("count(room)");
+                    client_infoarea.append("접대 고객(최다): "+cus_name+"\t("+cus_count+"회)\n");
+                    client_infoarea.append("관리 객실(최다): "+room_num+"\t("+room_count+"회)");
+                }
+            }
+            stmt.close();
+            rs.close();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
+    private void client_register() {
+        String name = new_client_nametext.getText();
+        String sex = (String) new_client_sexbox.getSelectedItem();
+        String address = (String) new_client_addressbox.getSelectedItem();
+        String phone = new_client_phonetext.getText();
+        try {
+            String sqlStr = "select count(*) from CLIENT where name='"+name+"'";
+            PreparedStatement stmt = dbTest.prepareStatement(sqlStr);
+            ResultSet rs = stmt.executeQuery();
+            rs.next();
+            if(rs.getString("count(*)").equals("0")) {
+                sqlStr = "insert into CLIENT values('"+name+"','"+sex+"','"+address+"','"+phone+"')";
+                stmt = dbTest.prepareStatement(sqlStr);
+                rs = stmt.executeQuery();
+                registerok();
+            }
+            else {
+                override_date();
+            }
+            stmt.close();
+            rs.close();
+        } catch (SQLException e) {
+            e.printStackTrace();
         }
     }
 
