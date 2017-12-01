@@ -351,7 +351,6 @@ public class Hotel extends JFrame implements ActionListener{
         client_registerbtn.addActionListener(this);
         roombox2.addActionListener(this);
         client_searchbtn.addActionListener(this);
-        client_registerbtn.addActionListener(this);
 
         tpane.add("고객",customer_panel);
         tpane.add("객실", room_panel);
@@ -620,6 +619,7 @@ public class Hotel extends JFrame implements ActionListener{
 
     @Override
     public void actionPerformed(ActionEvent e) {
+        System.out.println("Count of listeners: " + ((JButton) e.getSource()).getActionListeners().length);
         if(e.getSource() == menuItem) {
             JFileChooser chooser = new JFileChooser(FileSystemView.getFileSystemView().getHomeDirectory());
             int returnValue = chooser.showOpenDialog(null);
@@ -634,10 +634,12 @@ public class Hotel extends JFrame implements ActionListener{
             connectDB();
             reserveStatus();
         }
-        if(e.getSource().equals(customer_registerbtn))
+        if(e.getSource().equals(customer_registerbtn)) {
             new_customer();
-        if(e.getSource().equals(client_registerbtn))
+        }
+        if(e.getSource().equals(client_registerbtn)) {
             new_client();
+        }
         if(e.getSource().equals(new_customer_cancelbtn)){
             customer_fs.setVisible(false);
             customer_fs.dispose();
@@ -687,11 +689,11 @@ public class Hotel extends JFrame implements ActionListener{
         if(e.getSource().equals(roombox2)) {
             room_search();
         }
-        if(e.getSource().equals(client_searchbtn)) {
-            client_search();
-        }
         if(e.getSource().equals(new_client_registerbtn)) {
             client_register();
+        }
+        if(e.getSource().equals(client_searchbtn)) {
+            client_search();
         }
     }
 
