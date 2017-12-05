@@ -17,5 +17,14 @@
         <jarDirectory url="file://C:/Program Files/Java/jre-9.0.1/lib/ext" recursive="false" />
       </library>
     </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/oraclexe/app/oracle/product/11.2.0/server/jdbc/lib/ojdbc5.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>

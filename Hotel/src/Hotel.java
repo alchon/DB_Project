@@ -619,7 +619,6 @@ public class Hotel extends JFrame implements ActionListener{
 
     @Override
     public void actionPerformed(ActionEvent e) {
-        System.out.println("Count of listeners: " + ((JButton) e.getSource()).getActionListeners().length);
         if(e.getSource() == menuItem) {
             JFileChooser chooser = new JFileChooser(FileSystemView.getFileSystemView().getHomeDirectory());
             int returnValue = chooser.showOpenDialog(null);
