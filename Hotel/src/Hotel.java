@@ -1021,7 +1021,7 @@ public class Hotel extends JFrame implements ActionListener{
         }
         else {
             try {
-                String sqlStr = "select count(*) from CUSTOMER where name ='"+name+"'";
+                String sqlStr = "select count(*) from CUSTOMER where phone ='"+phone+"'";
                 PreparedStatement stmt = dbTest.prepareStatement(sqlStr);
                 ResultSet rs = stmt.executeQuery();
                 rs.next();
@@ -1175,7 +1175,7 @@ public class Hotel extends JFrame implements ActionListener{
         }
         else {
             try {
-                String sqlStr = "select count(*) from CLIENT where name='"+name+"'";
+                String sqlStr = "select count(*) from CLIENT where phone='"+phone+"'";
                 PreparedStatement stmt = dbTest.prepareStatement(sqlStr);
                 ResultSet rs = stmt.executeQuery();
                 rs.next();
