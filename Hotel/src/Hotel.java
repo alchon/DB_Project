@@ -18,6 +18,11 @@ import java.util.Random;
  * @author 서현범 (2016003590)
  */
 
+/**
+ * 날짜가 2017/12/60 이렇게 들어오면 터진다.
+ *
+ */
+
 public class Hotel extends JFrame implements ActionListener{
 
     private static Connection dbTest;
@@ -103,15 +108,15 @@ public class Hotel extends JFrame implements ActionListener{
     private JButton new_client_registerbtn = new JButton("직원등록");
     private JButton new_client_cancelbtn = new JButton("취소");
     // 등록되지 않은 사용자 팝업
-    private JFrame not_customer_fs = new JFrame("경고");
+    private JFrame not_customer_fs = new JFrame("안내");
     private JLabel not_customerLabel = new JLabel("가입되지 않은 고객입니다.");
     private JButton not_customerbtn = new JButton("확인");
     // 날짜가 중복
-    private JFrame override_date_fs = new JFrame("경고");
+    private JFrame override_date_fs = new JFrame("안내");
     private JLabel override_dateLabel = new JLabel("이미 존재합니다.");
     private JButton override_datebtn = new JButton("확인");
     // 예약이 없
-    private JFrame notreserve_fs = new JFrame("경고");
+    private JFrame notreserve_fs = new JFrame("안내");
     private JLabel notreserveLabel = new JLabel("예약이 존재하지 않습니다.");
     private JButton notreservebtn = new JButton("확인");
     // 예약 등록/변경
@@ -126,7 +131,10 @@ public class Hotel extends JFrame implements ActionListener{
     private JFrame registerok_fs = new JFrame("안내");
     private JLabel registerokLabel = new JLabel("등록 되었습니다.");
     private JButton registerokbtn = new JButton("확인");
-
+    // 날짜 형식 틀릴시
+    private JFrame dateformat_fs = new JFrame("안내");
+    private JLabel dateformatLabel = new JLabel("공백 또는 날짜 형식을 확인하세요.");
+    private JButton dateformatbtn = new JButton("확인");
 
     private Hotel() {
         panel.setLayout(null);
@@ -148,8 +156,6 @@ public class Hotel extends JFrame implements ActionListener{
         frame.setSize(320,130);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);
-
-
     }
 
     private void ViewHotel() {
@@ -171,6 +177,7 @@ public class Hotel extends JFrame implements ActionListener{
         AddSearch();
         add(panel);
         createTable();
+        reserveStatus();
         setVisible(true);
     }
 
@@ -617,6 +624,27 @@ public class Hotel extends JFrame implements ActionListener{
         registerok_fs.setVisible(true);
     }
 
+    private void dateformat() {
+        dateformat_fs.addWindowListener(new WindowAdapter() {
+            @Override
+            public void windowClosing(WindowEvent e) {
+                dateformat_fs.setVisible(false);
+                dateformat_fs.dispose();
+            }
+        });
+        dateformat_fs.setLayout(null);
+        Container c = dateformat_fs.getContentPane();
+        dateformatLabel.setFont(new Font("Sans Serif", Font.PLAIN, 15));
+        dateformatLabel.setBounds(50,20,250,20);
+        dateformatbtn.setBounds(100,70,100,40);
+        c.add(dateformatLabel);
+        c.add(dateformatbtn);
+        dateformatbtn.addActionListener(this);
+        dateformat_fs.setSize(300,150);
+        dateformat_fs.setLocation(300,200);
+        dateformat_fs.setVisible(true);
+    }
+
     @Override
     public void actionPerformed(ActionEvent e) {
         if(e.getSource() == menuItem) {
@@ -631,7 +659,6 @@ public class Hotel extends JFrame implements ActionListener{
             username = idInput.getText();
             password = new String(pwdInput.getPassword());
             connectDB();
-            reserveStatus();
         }
         if(e.getSource().equals(customer_registerbtn)) {
             new_customer();
@@ -670,6 +697,10 @@ public class Hotel extends JFrame implements ActionListener{
         if(e.getSource().equals(registerokbtn)) {
             registerok_fs.setVisible(false);
             registerok_fs.dispose();
+        }
+        if(e.getSource().equals(dateformatbtn)) {
+            dateformat_fs.setVisible(false);
+            dateformat_fs.dispose();
         }
         if(e.getSource().equals(registerbtn)) {
             reservation();
@@ -835,138 +866,144 @@ public class Hotel extends JFrame implements ActionListener{
     }
 
     private void reservation() {
+        String name = nametext.getText();
+        String checkin = datetext.getText();
+        String days = (String) daybox.getSelectedItem();
+        String room = (String) roombox.getSelectedItem();
+        SimpleDateFormat dateFormatParser = new SimpleDateFormat("YYYY/MM/DD");
         try {
-            String name = nametext.getText();
-            String checkin = datetext.getText();
-            String days = (String) daybox.getSelectedItem();
-            String room = (String) roombox.getSelectedItem();
-            String sqlStr = "select count(*) from CUSTOMER where name = '"+name+"'";
-            PreparedStatement stmt = dbTest.prepareStatement(sqlStr);
-            ResultSet rs = stmt.executeQuery();
-            String[] inputdate = checkin.split("/");
-            String[] compareinputdate = new String[Integer.parseInt(days)];
-            for(int i=0; i<Integer.parseInt(days); i++) {
-                if(inputdate[1]=="1" || inputdate[1]=="3" || inputdate[1]=="5" || inputdate[1]=="7" ||
-                        inputdate[1]=="8" || inputdate[1]=="10" || inputdate[1]=="12") {
-                    if(Integer.parseInt(inputdate[2]) + i > 31) {
-                        if(inputdate[1]=="12") {
-                            compareinputdate[i] = String.valueOf(Integer.parseInt(inputdate[0])+1)+"/1/"+String.valueOf(Integer.parseInt(inputdate[2])+i-31);
+            dateFormatParser.parse(checkin);
+            try {
+                String sqlStr = "select count(*) from CUSTOMER where name = '"+name+"'";
+                PreparedStatement stmt = dbTest.prepareStatement(sqlStr);
+                ResultSet rs = stmt.executeQuery();
+                String[] inputdate = checkin.split("/");
+                String[] compareinputdate = new String[Integer.parseInt(days)];
+                for(int i=0; i<Integer.parseInt(days); i++) {
+                    if(inputdate[1]=="1" || inputdate[1]=="3" || inputdate[1]=="5" || inputdate[1]=="7" ||
+                            inputdate[1]=="8" || inputdate[1]=="10" || inputdate[1]=="12") {
+                        if(Integer.parseInt(inputdate[2]) + i > 31) {
+                            if(inputdate[1]=="12") {
+                                compareinputdate[i] = String.valueOf(Integer.parseInt(inputdate[0])+1)+"/1/"+String.valueOf(Integer.parseInt(inputdate[2])+i-31);
+                            }
+                            else {
+                                compareinputdate[i] = inputdate[0]+"/"+String.valueOf(Integer.parseInt(inputdate[1])+1)+"/"+String.valueOf(Integer.parseInt(inputdate[2])+i-31);
+                            }
                         }
                         else {
-                            compareinputdate[i] = inputdate[0]+"/"+String.valueOf(Integer.parseInt(inputdate[1])+1)+"/"+String.valueOf(Integer.parseInt(inputdate[2])+i-31);
+                            compareinputdate[i] = inputdate[0]+"/"+inputdate[1]+"/"+String.valueOf(Integer.parseInt(inputdate[2])+i);
                         }
                     }
                     else {
-                        compareinputdate[i] = inputdate[0]+"/"+inputdate[1]+"/"+String.valueOf(Integer.parseInt(inputdate[2])+i);
-                    }
-                }
-                else {
-                    if(Integer.parseInt(inputdate[2]) + i > 30) {
-                        if(inputdate[1]=="12") {
-                            compareinputdate[i] = String.valueOf(Integer.parseInt(inputdate[0])+1)+"/1/"+String.valueOf(Integer.parseInt(inputdate[2])+i-30);
+                        if(Integer.parseInt(inputdate[2]) + i > 30) {
+                            if(inputdate[1]=="12") {
+                                compareinputdate[i] = String.valueOf(Integer.parseInt(inputdate[0])+1)+"/1/"+String.valueOf(Integer.parseInt(inputdate[2])+i-30);
+                            }
+                            else {
+                                compareinputdate[i] = inputdate[0]+"/"+String.valueOf(Integer.parseInt(inputdate[1])+1)+"/"+String.valueOf(Integer.parseInt(inputdate[2])+i-30);
+                            }
                         }
                         else {
-                            compareinputdate[i] = inputdate[0]+"/"+String.valueOf(Integer.parseInt(inputdate[1])+1)+"/"+String.valueOf(Integer.parseInt(inputdate[2])+i-30);
+                            compareinputdate[i] = inputdate[0]+"/"+inputdate[1]+"/"+String.valueOf(Integer.parseInt(inputdate[2])+i);
                         }
                     }
-                    else {
-                        compareinputdate[i] = inputdate[0]+"/"+inputdate[1]+"/"+String.valueOf(Integer.parseInt(inputdate[2])+i);
-                    }
                 }
-            }
-            rs.next();
-            if(rs.getString("count(*)").equals("0")) {
-                not_customer();
-            }
-            else {
-                sqlStr = "select count(*) from RESERVATION where customer_name = '"+name+"' or room = '"+room+"'";
-                stmt = dbTest.prepareStatement(sqlStr);
-                rs = stmt.executeQuery();
                 rs.next();
                 if(rs.getString("count(*)").equals("0")) {
-                    sqlStr = "select * from (select name from CLIENT order by DBMS_RANDOM.VALUE) where ROWNUM <= 1";
+                    not_customer();
+                }
+                else {
+                    sqlStr = "select count(*) from RESERVATION where customer_name = '"+name+"' or room = '"+room+"'";
                     stmt = dbTest.prepareStatement(sqlStr);
                     rs = stmt.executeQuery();
                     rs.next();
-                    String clientname = rs.getString("NAME");
-                    sqlStr = "insert into RESERVATION values('"+name+"','"+clientname+"','"+days+"','"+room+"','"+checkin+"')";
-                    stmt = dbTest.prepareStatement(sqlStr);
-                    rs = stmt.executeQuery();
-                    new_reserve();
-                }
-                else {
-                    sqlStr = "select * from RESERVATION where customer_name = '"+name+"' or room = '"+room+"'";
-                    stmt = dbTest.prepareStatement(sqlStr);
-                    rs = stmt.executeQuery();
-                    boolean tmp = false;
-                    while(rs.next()) {
-                        String day = rs.getString("days");
-                        String date = rs.getString("checkin");
-                        String[] querydate = date.split("-");
-                        String[] datetmp = querydate[2].split(" ");
-                        querydate[2] = datetmp[0];
-                        String[] comparequerydate = new String[Integer.parseInt(day)];
-                        for(int i=0; i<Integer.parseInt(day); i++) {
-                            if(querydate[1]=="1" || querydate[1]=="3" || querydate[1]=="5" || querydate[1]=="7" ||
-                                    querydate[1]=="8" || querydate[1]=="10" || querydate[1]=="12") {
-                                if(Integer.parseInt(querydate[2]) + i > 31) {
-                                    if(querydate[1]=="12") {
-                                        comparequerydate[i] = String.valueOf(Integer.parseInt(querydate[0])+1)+"/1/"+String.valueOf(Integer.parseInt(querydate[2])+i-31);
-                                    }
-                                    else {
-                                        comparequerydate[i] = querydate[0]+"/"+String.valueOf(Integer.parseInt(querydate[1])+1)+"/"+String.valueOf(Integer.parseInt(querydate[2])+i-31);
-                                    }
-                                }
-                                else {
-                                    comparequerydate[i] = querydate[0]+"/"+querydate[1]+"/"+String.valueOf(Integer.parseInt(querydate[2])+i);
-                                }
-                            }
-                            else {
-                                if(Integer.parseInt(querydate[2]) + i > 30) {
-                                    if(querydate[1]=="12") {
-                                        comparequerydate[i] = String.valueOf(Integer.parseInt(querydate[0])+1)+"/1/"+String.valueOf(Integer.parseInt(querydate[2])+i-30);
-                                    }
-                                    else {
-                                        comparequerydate[i] = querydate[0]+"/"+String.valueOf(Integer.parseInt(querydate[1])+1)+"/"+String.valueOf(Integer.parseInt(querydate[2])+i-30);
-                                    }
-                                }
-                                else {
-                                    comparequerydate[i] = querydate[0]+"/"+querydate[1]+"/"+String.valueOf(Integer.parseInt(querydate[2])+i);
-                                }
-                            }
-                        }
-                        for(int i=0; i<Integer.parseInt(days); i++) {
-                            for (int j=0; j<Integer.parseInt(day); j++) {
-                                if(compareinputdate[i].equals(comparequerydate[j])) {
-                                    tmp = true;
-                                    break;
-                                }
-                            }
-                            if(tmp == true) {
-                                break;
-                            }
-                        }
-                    }
-                    if(tmp == true) {
-                        override_date();
-                    }
-                    else {
+                    if(rs.getString("count(*)").equals("0")) {
                         sqlStr = "select * from (select name from CLIENT order by DBMS_RANDOM.VALUE) where ROWNUM <= 1";
                         stmt = dbTest.prepareStatement(sqlStr);
                         rs = stmt.executeQuery();
                         rs.next();
                         String clientname = rs.getString("NAME");
-                        sqlStr = "insert into RESERVATION values('"+name+"','"+clientname+"',"+days+",'"+room+"','"+checkin+"')";
+                        sqlStr = "insert into RESERVATION values('"+name+"','"+clientname+"','"+days+"','"+room+"','"+checkin+"')";
                         stmt = dbTest.prepareStatement(sqlStr);
                         rs = stmt.executeQuery();
                         new_reserve();
                     }
+                    else {
+                        sqlStr = "select * from RESERVATION where customer_name = '"+name+"' or room = '"+room+"'";
+                        stmt = dbTest.prepareStatement(sqlStr);
+                        rs = stmt.executeQuery();
+                        boolean tmp = false;
+                        while(rs.next()) {
+                            String day = rs.getString("days");
+                            String date = rs.getString("checkin");
+                            String[] querydate = date.split("-");
+                            String[] datetmp = querydate[2].split(" ");
+                            querydate[2] = datetmp[0];
+                            String[] comparequerydate = new String[Integer.parseInt(day)];
+                            for(int i=0; i<Integer.parseInt(day); i++) {
+                                if(querydate[1]=="1" || querydate[1]=="3" || querydate[1]=="5" || querydate[1]=="7" ||
+                                        querydate[1]=="8" || querydate[1]=="10" || querydate[1]=="12") {
+                                    if(Integer.parseInt(querydate[2]) + i > 31) {
+                                        if(querydate[1]=="12") {
+                                            comparequerydate[i] = String.valueOf(Integer.parseInt(querydate[0])+1)+"/1/"+String.valueOf(Integer.parseInt(querydate[2])+i-31);
+                                        }
+                                        else {
+                                            comparequerydate[i] = querydate[0]+"/"+String.valueOf(Integer.parseInt(querydate[1])+1)+"/"+String.valueOf(Integer.parseInt(querydate[2])+i-31);
+                                        }
+                                    }
+                                    else {
+                                        comparequerydate[i] = querydate[0]+"/"+querydate[1]+"/"+String.valueOf(Integer.parseInt(querydate[2])+i);
+                                    }
+                                }
+                                else {
+                                    if(Integer.parseInt(querydate[2]) + i > 30) {
+                                        if(querydate[1]=="12") {
+                                            comparequerydate[i] = String.valueOf(Integer.parseInt(querydate[0])+1)+"/1/"+String.valueOf(Integer.parseInt(querydate[2])+i-30);
+                                        }
+                                        else {
+                                            comparequerydate[i] = querydate[0]+"/"+String.valueOf(Integer.parseInt(querydate[1])+1)+"/"+String.valueOf(Integer.parseInt(querydate[2])+i-30);
+                                        }
+                                    }
+                                    else {
+                                        comparequerydate[i] = querydate[0]+"/"+querydate[1]+"/"+String.valueOf(Integer.parseInt(querydate[2])+i);
+                                    }
+                                }
+                            }
+                            for(int i=0; i<Integer.parseInt(days); i++) {
+                                for (int j=0; j<Integer.parseInt(day); j++) {
+                                    if(compareinputdate[i].equals(comparequerydate[j])) {
+                                        tmp = true;
+                                        break;
+                                    }
+                                }
+                                if(tmp == true) {
+                                    break;
+                                }
+                            }
+                        }
+                        if(tmp == true) {
+                            override_date();
+                        }
+                        else {
+                            sqlStr = "select * from (select name from CLIENT order by DBMS_RANDOM.VALUE) where ROWNUM <= 1";
+                            stmt = dbTest.prepareStatement(sqlStr);
+                            rs = stmt.executeQuery();
+                            rs.next();
+                            String clientname = rs.getString("NAME");
+                            sqlStr = "insert into RESERVATION values('"+name+"','"+clientname+"',"+days+",'"+room+"','"+checkin+"')";
+                            stmt = dbTest.prepareStatement(sqlStr);
+                            rs = stmt.executeQuery();
+                            new_reserve();
+                        }
+                    }
                 }
+                stmt.close();
+                rs.close();
+            } catch(SQLException e) {
+                e.printStackTrace();
             }
-            stmt.close();
-            rs.close();
-        } catch (SQLException e) {
-            e.printStackTrace();
+        } catch(Exception e) {
+            dateformat();
         }
     }
 
@@ -1150,24 +1187,29 @@ public class Hotel extends JFrame implements ActionListener{
         String sex = (String) new_customer_sexbox.getSelectedItem();
         String address = (String) new_customer_addressbox.getSelectedItem();
         String phone = new_customer_phonetext.getText();
-        try {
-            String sqlStr = "select count(*) from CUSTOMER where name ='"+name+"'";
-            PreparedStatement stmt = dbTest.prepareStatement(sqlStr);
-            ResultSet rs = stmt.executeQuery();
-            rs.next();
-            if(rs.getString("count(*)").equals("0")) {
-                sqlStr = "insert into CUSTOMER values('"+name+"','"+sex+"','"+address+"','"+phone+"')";
-                stmt = dbTest.prepareStatement(sqlStr);
-                rs = stmt.executeQuery();
-                registerok();
+        if(name.isEmpty() || phone.isEmpty()) {
+            dateformat();
+        }
+        else {
+            try {
+                String sqlStr = "select count(*) from CUSTOMER where name ='"+name+"'";
+                PreparedStatement stmt = dbTest.prepareStatement(sqlStr);
+                ResultSet rs = stmt.executeQuery();
+                rs.next();
+                if(rs.getString("count(*)").equals("0")) {
+                    sqlStr = "insert into CUSTOMER values('"+name+"','"+sex+"','"+address+"','"+phone+"')";
+                    stmt = dbTest.prepareStatement(sqlStr);
+                    rs = stmt.executeQuery();
+                    registerok();
+                }
+                else {
+                    override_date();
+                }
+                stmt.close();
+                rs.close();
+            } catch (SQLException e) {
+                e.printStackTrace();
             }
-            else {
-                override_date();
-            }
-            stmt.close();
-            rs.close();
-        } catch (SQLException e) {
-            e.printStackTrace();
         }
     }
 
@@ -1299,24 +1341,29 @@ public class Hotel extends JFrame implements ActionListener{
         String sex = (String) new_client_sexbox.getSelectedItem();
         String address = (String) new_client_addressbox.getSelectedItem();
         String phone = new_client_phonetext.getText();
-        try {
-            String sqlStr = "select count(*) from CLIENT where name='"+name+"'";
-            PreparedStatement stmt = dbTest.prepareStatement(sqlStr);
-            ResultSet rs = stmt.executeQuery();
-            rs.next();
-            if(rs.getString("count(*)").equals("0")) {
-                sqlStr = "insert into CLIENT values('"+name+"','"+sex+"','"+address+"','"+phone+"')";
-                stmt = dbTest.prepareStatement(sqlStr);
-                rs = stmt.executeQuery();
-                registerok();
+        if(name.isEmpty() || phone.isEmpty()) {
+            dateformat();
+        }
+        else {
+            try {
+                String sqlStr = "select count(*) from CLIENT where name='"+name+"'";
+                PreparedStatement stmt = dbTest.prepareStatement(sqlStr);
+                ResultSet rs = stmt.executeQuery();
+                rs.next();
+                if(rs.getString("count(*)").equals("0")) {
+                    sqlStr = "insert into CLIENT values('"+name+"','"+sex+"','"+address+"','"+phone+"')";
+                    stmt = dbTest.prepareStatement(sqlStr);
+                    rs = stmt.executeQuery();
+                    registerok();
+                }
+                else {
+                    override_date();
+                }
+                stmt.close();
+                rs.close();
+            } catch (SQLException e) {
+                e.printStackTrace();
             }
-            else {
-                override_date();
-            }
-            stmt.close();
-            rs.close();
-        } catch (SQLException e) {
-            e.printStackTrace();
         }
     }
 

@@ -15,6 +15,7 @@
       <file leaf-file-name="Hotel.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Hotel.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="229">
               <caret line="848" column="0" lean-forward="false" selection-start-line="848" selection-start-column="0" selection-end-line="848" selection-end-column="0" />
               <folding>
@@ -76,6 +77,81 @@
                 <marker date="1512371493209" expanded="true" signature="54826:55002" ph="select room,... CLIENT" />
                 <marker date="1512371493209" expanded="true" signature="55949:55998" ph="select count... CLIENT" />
                 <marker date="1512371493209" expanded="true" signature="56223:56296" ph="insert into CLIENT... " />
+=======
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#13667#13875#0" expanded="true" />
+                <element signature="e#13874#13875#0" expanded="true" />
+                <element signature="e#16251#16455#0" expanded="true" />
+                <element signature="e#16454#16455#0" expanded="true" />
+                <element signature="e#18773#18989#0" expanded="true" />
+                <element signature="e#18988#18989#0" expanded="true" />
+                <element signature="e#19595#19813#0" expanded="true" />
+                <element signature="e#19812#19813#0" expanded="true" />
+                <element signature="e#20425#20637#0" expanded="true" />
+                <element signature="e#20636#20637#0" expanded="true" />
+                <element signature="e#21217#21431#0" expanded="true" />
+                <element signature="e#21430#21431#0" expanded="true" />
+                <element signature="e#22028#22248#0" expanded="true" />
+                <element signature="e#22247#22248#0" expanded="true" />
+                <element signature="e#22870#23082#0" expanded="true" />
+                <element signature="e#23081#23082#0" expanded="true" />
+                <element signature="e#23660#23872#0" expanded="true" />
+                <element signature="e#23871#23872#0" expanded="true" />
+                <marker date="1512378163350" expanded="true" signature="27808:27869" ph="select count... all_tables" />
+                <marker date="1512378163350" expanded="true" signature="28094:28364" ph="create table... CUSTOMER" />
+                <marker date="1512378163350" expanded="true" signature="28501:28560" ph="select count... all_tables" />
+                <marker date="1512378163350" expanded="true" signature="28757:29026" ph="create table... CLIENT" />
+                <marker date="1512378163350" expanded="true" signature="29163:29220" ph="select count... all_tables" />
+                <marker date="1512378163350" expanded="true" signature="29417:29633" ph="create table... ROOM" />
+                <marker date="1512378163350" expanded="true" signature="29770:29834" ph="select count... all_tables" />
+                <marker date="1512378163350" expanded="true" signature="30031:30542" ph="create table... RESERVATION" />
+                <marker date="1512378163350" expanded="true" signature="31463:31491" ph="insert into CUSTOMER... " />
+                <marker date="1512378163350" expanded="true" signature="31463:31504" ph="insert into CUSTOMER... " />
+                <marker date="1512378163350" expanded="true" signature="31463:31517" ph="insert into CUSTOMER... " />
+                <marker date="1512378163350" expanded="true" signature="31463:31530" ph="insert into CUSTOMER... " />
+                <marker date="1512378163350" expanded="true" signature="31463:31543" ph="insert into CUSTOMER... " />
+                <marker date="1512378163350" expanded="true" signature="31998:32076" ph="insert into CLIENT... " />
+                <marker date="1512378163350" expanded="true" signature="32531:32594" ph="insert into ROOM... " />
+                <marker date="1512378163350" expanded="true" signature="33541:33594" ph="select count... CUSTOMER" />
+                <marker date="1512378163350" expanded="true" signature="35952:36038" ph="select count... RESERVATION" />
+                <marker date="1512378163350" expanded="true" signature="36275:36359" ph="select * fro... name" />
+                <marker date="1512378163350" expanded="true" signature="36290:36340" ph="select name CLIENT" />
+                <marker date="1512378163350" expanded="true" signature="36611:36706" ph="insert into RESERVATION... " />
+                <marker date="1512378163350" expanded="true" signature="36945:37024" ph="select * fro... RESERVATION" />
+                <marker date="1512378163350" expanded="true" signature="40667:40751" ph="select * fro... name" />
+                <marker date="1512378163350" expanded="true" signature="40682:40732" ph="select name CLIENT" />
+                <marker date="1512378163350" expanded="true" signature="41023:41116" ph="insert into RESERVATION... " />
+                <marker date="1512378163350" expanded="true" signature="41855:41976" ph="select * fro... RESERVATION" />
+                <marker date="1512378163350" expanded="true" signature="42216:42333" ph="delete from " />
+                <marker date="1512378163350" expanded="true" signature="42983:43008" ph="select * fro... RESERVATION" />
+                <marker date="1512378163350" expanded="true" signature="46992:47034" ph="select count... CUSTOMER" />
+                <marker date="1512378163350" expanded="true" signature="46992:47043" ph="select count... CUSTOMER" />
+                <marker date="1512378163350" expanded="true" signature="47353:47397" ph="select * fro... CUSTOMER" />
+                <marker date="1512378163350" expanded="true" signature="48043:48097" ph="select count... RESERVATION" />
+                <marker date="1512378163350" expanded="true" signature="48043:48110" ph="select count... RESERVATION" />
+                <marker date="1512378163350" expanded="true" signature="48563:48686" ph="select sum(d... CUSTOMER" />
+                <marker date="1512378163350" expanded="true" signature="48920:49063" ph="select check... CUSTOMER" />
+                <marker date="1512378163350" expanded="true" signature="49397:49596" ph="select clien... CUSTOMER" />
+                <marker date="1512378163350" expanded="true" signature="50738:50790" ph="select count... CUSTOMER" />
+                <marker date="1512378163350" expanded="true" signature="51035:51110" ph="insert into CUSTOMER... " />
+                <marker date="1512378163350" expanded="true" signature="51732:51775" ph="select * fro... ROOM" />
+                <marker date="1512378163350" expanded="true" signature="52687:52732" ph="select count... RESERVATION" />
+                <marker date="1512378163350" expanded="true" signature="52687:52745" ph="select count... RESERVATION" />
+                <marker date="1512378163350" expanded="true" signature="53337:53548" ph="select custo... CUSTOMER" />
+                <marker date="1512378163350" expanded="true" signature="53850:54047" ph="select clien... CLIENT" />
+                <marker date="1512378163350" expanded="true" signature="54856:54905" ph="select count... CLIENT" />
+                <marker date="1512378163350" expanded="true" signature="55213:55246" ph="select * fro... CLIENT" />
+                <marker date="1512378163350" expanded="true" signature="55213:55255" ph="select * fro... CLIENT" />
+                <marker date="1512378163350" expanded="true" signature="55893:55945" ph="select * fro... RESERVATION" />
+                <marker date="1512378163350" expanded="true" signature="55893:55958" ph="select * fro... RESERVATION" />
+                <marker date="1512378163350" expanded="true" signature="56354:56566" ph="select custo... CLIENT" />
+                <marker date="1512378163350" expanded="true" signature="56882:57058" ph="select room,... CLIENT" />
+                <marker date="1512378163350" expanded="true" signature="58112:58161" ph="select count... CLIENT" />
+                <marker date="1512378163350" expanded="true" signature="58406:58479" ph="insert into CLIENT... " />
+>>>>>>> 90008abafa2b6e21b1c31111e4fc3636f1c0e755
               </folding>
             </state>
           </provider>
@@ -167,6 +243,11 @@
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
+=======
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+>>>>>>> 90008abafa2b6e21b1c31111e4fc3636f1c0e755
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -358,17 +439,28 @@
       <workItem from="1512008306011" duration="10484000" />
       <workItem from="1512035682180" duration="23325000" />
       <workItem from="1512115821404" duration="2029000" />
+<<<<<<< HEAD
       <workItem from="1512186868884" duration="469000" />
       <workItem from="1512360086577" duration="103000" />
       <workItem from="1512371172411" duration="443000" />
+=======
+      <workItem from="1512376735258" duration="1442000" />
+>>>>>>> 90008abafa2b6e21b1c31111e4fc3636f1c0e755
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="63129000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="886" extended-state="6" />
+=======
+    <option name="totallyTimeSpent" value="63556000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+>>>>>>> 90008abafa2b6e21b1c31111e4fc3636f1c0e755
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -378,12 +470,20 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
+=======
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20545073" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+>>>>>>> 90008abafa2b6e21b1c31111e4fc3636f1c0e755
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48777348" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.088194445" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09947917" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> 90008abafa2b6e21b1c31111e4fc3636f1c0e755
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -417,6 +517,155 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+<<<<<<< HEAD
+            <element signature="e#13404#13612#0" expanded="true" />
+            <element signature="e#13611#13612#0" expanded="true" />
+            <element signature="e#15988#16192#0" expanded="true" />
+            <element signature="e#16191#16192#0" expanded="true" />
+            <element signature="e#18510#18726#0" expanded="true" />
+            <element signature="e#18725#18726#0" expanded="true" />
+            <element signature="e#19332#19550#0" expanded="true" />
+            <element signature="e#19549#19550#0" expanded="true" />
+            <element signature="e#20162#20374#0" expanded="true" />
+            <element signature="e#20373#20374#0" expanded="true" />
+            <element signature="e#20954#21168#0" expanded="true" />
+            <element signature="e#21167#21168#0" expanded="true" />
+            <element signature="e#21765#21985#0" expanded="true" />
+            <element signature="e#21984#21985#0" expanded="true" />
+            <element signature="e#22607#22819#0" expanded="true" />
+            <element signature="e#22818#22819#0" expanded="true" />
+            <marker date="1512371493209" expanded="true" signature="26642:26703" ph="select count... all_tables" />
+            <marker date="1512371493209" expanded="true" signature="26928:27198" ph="create table... CUSTOMER" />
+            <marker date="1512371493209" expanded="true" signature="27335:27394" ph="select count... all_tables" />
+            <marker date="1512371493209" expanded="true" signature="27591:27860" ph="create table... CLIENT" />
+            <marker date="1512371493209" expanded="true" signature="27997:28054" ph="select count... all_tables" />
+            <marker date="1512371493209" expanded="true" signature="28251:28467" ph="create table... ROOM" />
+            <marker date="1512371493209" expanded="true" signature="28604:28668" ph="select count... all_tables" />
+            <marker date="1512371493209" expanded="true" signature="28865:29376" ph="create table... RESERVATION" />
+            <marker date="1512371493209" expanded="true" signature="30297:30377" ph="insert into CUSTOMER... " />
+            <marker date="1512371493209" expanded="true" signature="30832:30910" ph="insert into CLIENT... " />
+            <marker date="1512371493209" expanded="true" signature="31365:31428" ph="insert into ROOM... " />
+            <marker date="1512371493209" expanded="true" signature="32244:32297" ph="select count... CUSTOMER" />
+            <marker date="1512371493209" expanded="true" signature="34499:34585" ph="select count... RESERVATION" />
+            <marker date="1512371493209" expanded="true" signature="34802:34886" ph="select * fro... name" />
+            <marker date="1512371493209" expanded="true" signature="34817:34867" ph="select name CLIENT" />
+            <marker date="1512371493209" expanded="true" signature="35118:35213" ph="insert into RESERVATION... " />
+            <marker date="1512371493209" expanded="true" signature="35428:35507" ph="select * fro... RESERVATION" />
+            <marker date="1512371493209" expanded="true" signature="38926:39010" ph="select * fro... name" />
+            <marker date="1512371493209" expanded="true" signature="38941:38991" ph="select name CLIENT" />
+            <marker date="1512371493209" expanded="true" signature="39262:39355" ph="insert into RESERVATION... " />
+            <marker date="1512371493209" expanded="true" signature="39984:40105" ph="select * fro... RESERVATION" />
+            <marker date="1512371493209" expanded="true" signature="40345:40462" ph="delete from RESERVATION... " />
+            <marker date="1512371493209" expanded="true" signature="41112:41137" ph="select * fro... RESERVATION" />
+            <marker date="1512371493209" expanded="true" signature="45121:45172" ph="select count... CUSTOMER" />
+            <marker date="1512371493209" expanded="true" signature="45482:45526" ph="select * fro... CUSTOMER" />
+            <marker date="1512371493209" expanded="true" signature="46172:46239" ph="select count... RESERVATION" />
+            <marker date="1512371493209" expanded="true" signature="46692:46815" ph="select sum(d... CUSTOMER" />
+            <marker date="1512371493209" expanded="true" signature="47049:47192" ph="select check... CUSTOMER" />
+            <marker date="1512371493209" expanded="true" signature="47526:47725" ph="select clien... CUSTOMER" />
+            <marker date="1512371493209" expanded="true" signature="48760:48812" ph="select count... CUSTOMER" />
+            <marker date="1512371493209" expanded="true" signature="49037:49112" ph="insert into CUSTOMER... " />
+            <marker date="1512371493209" expanded="true" signature="49676:49719" ph="select * fro... ROOM" />
+            <marker date="1512371493209" expanded="true" signature="50631:50689" ph="select count... RESERVATION" />
+            <marker date="1512371493209" expanded="true" signature="51281:51492" ph="select custo... CUSTOMER" />
+            <marker date="1512371493209" expanded="true" signature="51794:51991" ph="select clien... CLIENT" />
+            <marker date="1512371493209" expanded="true" signature="52800:52849" ph="select count... CLIENT" />
+            <marker date="1512371493209" expanded="true" signature="53157:53199" ph="select * fro... CLIENT" />
+            <marker date="1512371493209" expanded="true" signature="53837:53902" ph="select count... RESERVATION" />
+            <marker date="1512371493209" expanded="true" signature="54298:54510" ph="select custo... CLIENT" />
+            <marker date="1512371493209" expanded="true" signature="54826:55002" ph="select room,... CLIENT" />
+            <marker date="1512371493209" expanded="true" signature="55949:55998" ph="select count... CLIENT" />
+            <marker date="1512371493209" expanded="true" signature="56223:56296" ph="insert into CLIENT... " />
+=======
+            <element signature="imports" expanded="true" />
+            <element signature="e#13667#13875#0" expanded="true" />
+            <element signature="e#13874#13875#0" expanded="true" />
+            <element signature="e#16251#16455#0" expanded="true" />
+            <element signature="e#16454#16455#0" expanded="true" />
+            <element signature="e#18773#18989#0" expanded="true" />
+            <element signature="e#18988#18989#0" expanded="true" />
+            <element signature="e#19595#19813#0" expanded="true" />
+            <element signature="e#19812#19813#0" expanded="true" />
+            <element signature="e#20425#20637#0" expanded="true" />
+            <element signature="e#20636#20637#0" expanded="true" />
+            <element signature="e#21217#21431#0" expanded="true" />
+            <element signature="e#21430#21431#0" expanded="true" />
+            <element signature="e#22028#22248#0" expanded="true" />
+            <element signature="e#22247#22248#0" expanded="true" />
+            <element signature="e#22870#23082#0" expanded="true" />
+            <element signature="e#23081#23082#0" expanded="true" />
+            <element signature="e#23660#23872#0" expanded="true" />
+            <element signature="e#23871#23872#0" expanded="true" />
+            <marker date="1512378163350" expanded="true" signature="27808:27869" ph="select count... all_tables" />
+            <marker date="1512378163350" expanded="true" signature="28094:28364" ph="create table... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="28501:28560" ph="select count... all_tables" />
+            <marker date="1512378163350" expanded="true" signature="28757:29026" ph="create table... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="29163:29220" ph="select count... all_tables" />
+            <marker date="1512378163350" expanded="true" signature="29417:29633" ph="create table... ROOM" />
+            <marker date="1512378163350" expanded="true" signature="29770:29834" ph="select count... all_tables" />
+            <marker date="1512378163350" expanded="true" signature="30031:30542" ph="create table... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="31463:31491" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31463:31504" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31463:31517" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31463:31530" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31463:31543" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31998:32076" ph="insert into CLIENT... " />
+            <marker date="1512378163350" expanded="true" signature="32531:32594" ph="insert into ROOM... " />
+            <marker date="1512378163350" expanded="true" signature="33541:33594" ph="select count... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="35952:36038" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="36275:36359" ph="select * fro... name" />
+            <marker date="1512378163350" expanded="true" signature="36290:36340" ph="select name CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="36611:36706" ph="insert into RESERVATION... " />
+            <marker date="1512378163350" expanded="true" signature="36945:37024" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="40667:40751" ph="select * fro... name" />
+            <marker date="1512378163350" expanded="true" signature="40682:40732" ph="select name CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="41023:41116" ph="insert into RESERVATION... " />
+            <marker date="1512378163350" expanded="true" signature="41855:41976" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="42216:42333" ph="delete from " />
+            <marker date="1512378163350" expanded="true" signature="42983:43008" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="46992:47034" ph="select count... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="46992:47043" ph="select count... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="47353:47397" ph="select * fro... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="48043:48097" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="48043:48110" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="48563:48686" ph="select sum(d... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="48920:49063" ph="select check... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="49397:49596" ph="select clien... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="50738:50790" ph="select count... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="51035:51110" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="51732:51775" ph="select * fro... ROOM" />
+            <marker date="1512378163350" expanded="true" signature="52687:52732" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="52687:52745" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="53337:53548" ph="select custo... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="53850:54047" ph="select clien... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="54856:54905" ph="select count... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="55213:55246" ph="select * fro... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="55213:55255" ph="select * fro... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="55893:55945" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="55893:55958" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="56354:56566" ph="select custo... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="56882:57058" ph="select room,... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="58112:58161" ph="select count... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="58406:58479" ph="insert into CLIENT... " />
+>>>>>>> 90008abafa2b6e21b1c31111e4fc3636f1c0e755
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Hotel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+<<<<<<< HEAD
             <element signature="e#13404#13612#0" expanded="true" />
             <element signature="e#13611#13612#0" expanded="true" />
             <element signature="e#15988#16192#0" expanded="true" />
@@ -625,81 +874,78 @@
             <marker date="1512371493209" expanded="true" signature="54826:55002" ph="select room,... CLIENT" />
             <marker date="1512371493209" expanded="true" signature="55949:55998" ph="select count... CLIENT" />
             <marker date="1512371493209" expanded="true" signature="56223:56296" ph="insert into CLIENT... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/db.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Hotel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#13404#13612#0" expanded="true" />
-            <element signature="e#13611#13612#0" expanded="true" />
-            <element signature="e#15988#16192#0" expanded="true" />
-            <element signature="e#16191#16192#0" expanded="true" />
-            <element signature="e#18510#18726#0" expanded="true" />
-            <element signature="e#18725#18726#0" expanded="true" />
-            <element signature="e#19332#19550#0" expanded="true" />
-            <element signature="e#19549#19550#0" expanded="true" />
-            <element signature="e#20162#20374#0" expanded="true" />
-            <element signature="e#20373#20374#0" expanded="true" />
-            <element signature="e#20954#21168#0" expanded="true" />
-            <element signature="e#21167#21168#0" expanded="true" />
-            <element signature="e#21765#21985#0" expanded="true" />
-            <element signature="e#21984#21985#0" expanded="true" />
-            <element signature="e#22607#22819#0" expanded="true" />
-            <element signature="e#22818#22819#0" expanded="true" />
-            <marker date="1512371493209" expanded="true" signature="26642:26703" ph="select count... all_tables" />
-            <marker date="1512371493209" expanded="true" signature="26928:27198" ph="create table... CUSTOMER" />
-            <marker date="1512371493209" expanded="true" signature="27335:27394" ph="select count... all_tables" />
-            <marker date="1512371493209" expanded="true" signature="27591:27860" ph="create table... CLIENT" />
-            <marker date="1512371493209" expanded="true" signature="27997:28054" ph="select count... all_tables" />
-            <marker date="1512371493209" expanded="true" signature="28251:28467" ph="create table... ROOM" />
-            <marker date="1512371493209" expanded="true" signature="28604:28668" ph="select count... all_tables" />
-            <marker date="1512371493209" expanded="true" signature="28865:29376" ph="create table... RESERVATION" />
-            <marker date="1512371493209" expanded="true" signature="30297:30377" ph="insert into CUSTOMER... " />
-            <marker date="1512371493209" expanded="true" signature="30832:30910" ph="insert into CLIENT... " />
-            <marker date="1512371493209" expanded="true" signature="31365:31428" ph="insert into ROOM... " />
-            <marker date="1512371493209" expanded="true" signature="32244:32297" ph="select count... CUSTOMER" />
-            <marker date="1512371493209" expanded="true" signature="34499:34585" ph="select count... RESERVATION" />
-            <marker date="1512371493209" expanded="true" signature="34802:34886" ph="select * fro... name" />
-            <marker date="1512371493209" expanded="true" signature="34817:34867" ph="select name CLIENT" />
-            <marker date="1512371493209" expanded="true" signature="35118:35213" ph="insert into RESERVATION... " />
-            <marker date="1512371493209" expanded="true" signature="35428:35507" ph="select * fro... RESERVATION" />
-            <marker date="1512371493209" expanded="true" signature="38926:39010" ph="select * fro... name" />
-            <marker date="1512371493209" expanded="true" signature="38941:38991" ph="select name CLIENT" />
-            <marker date="1512371493209" expanded="true" signature="39262:39355" ph="insert into RESERVATION... " />
-            <marker date="1512371493209" expanded="true" signature="39984:40105" ph="select * fro... RESERVATION" />
-            <marker date="1512371493209" expanded="true" signature="40345:40462" ph="delete from RESERVATION... " />
-            <marker date="1512371493209" expanded="true" signature="41112:41137" ph="select * fro... RESERVATION" />
-            <marker date="1512371493209" expanded="true" signature="45121:45172" ph="select count... CUSTOMER" />
-            <marker date="1512371493209" expanded="true" signature="45482:45526" ph="select * fro... CUSTOMER" />
-            <marker date="1512371493209" expanded="true" signature="46172:46239" ph="select count... RESERVATION" />
-            <marker date="1512371493209" expanded="true" signature="46692:46815" ph="select sum(d... CUSTOMER" />
-            <marker date="1512371493209" expanded="true" signature="47049:47192" ph="select check... CUSTOMER" />
-            <marker date="1512371493209" expanded="true" signature="47526:47725" ph="select clien... CUSTOMER" />
-            <marker date="1512371493209" expanded="true" signature="48760:48812" ph="select count... CUSTOMER" />
-            <marker date="1512371493209" expanded="true" signature="49037:49112" ph="insert into CUSTOMER... " />
-            <marker date="1512371493209" expanded="true" signature="49676:49719" ph="select * fro... ROOM" />
-            <marker date="1512371493209" expanded="true" signature="50631:50689" ph="select count... RESERVATION" />
-            <marker date="1512371493209" expanded="true" signature="51281:51492" ph="select custo... CUSTOMER" />
-            <marker date="1512371493209" expanded="true" signature="51794:51991" ph="select clien... CLIENT" />
-            <marker date="1512371493209" expanded="true" signature="52800:52849" ph="select count... CLIENT" />
-            <marker date="1512371493209" expanded="true" signature="53157:53199" ph="select * fro... CLIENT" />
-            <marker date="1512371493209" expanded="true" signature="53837:53902" ph="select count... RESERVATION" />
-            <marker date="1512371493209" expanded="true" signature="54298:54510" ph="select custo... CLIENT" />
-            <marker date="1512371493209" expanded="true" signature="54826:55002" ph="select room,... CLIENT" />
-            <marker date="1512371493209" expanded="true" signature="55949:55998" ph="select count... CLIENT" />
-            <marker date="1512371493209" expanded="true" signature="56223:56296" ph="insert into CLIENT... " />
+=======
+            <element signature="imports" expanded="true" />
+            <element signature="e#13667#13875#0" expanded="true" />
+            <element signature="e#13874#13875#0" expanded="true" />
+            <element signature="e#16251#16455#0" expanded="true" />
+            <element signature="e#16454#16455#0" expanded="true" />
+            <element signature="e#18773#18989#0" expanded="true" />
+            <element signature="e#18988#18989#0" expanded="true" />
+            <element signature="e#19595#19813#0" expanded="true" />
+            <element signature="e#19812#19813#0" expanded="true" />
+            <element signature="e#20425#20637#0" expanded="true" />
+            <element signature="e#20636#20637#0" expanded="true" />
+            <element signature="e#21217#21431#0" expanded="true" />
+            <element signature="e#21430#21431#0" expanded="true" />
+            <element signature="e#22028#22248#0" expanded="true" />
+            <element signature="e#22247#22248#0" expanded="true" />
+            <element signature="e#22870#23082#0" expanded="true" />
+            <element signature="e#23081#23082#0" expanded="true" />
+            <element signature="e#23660#23872#0" expanded="true" />
+            <element signature="e#23871#23872#0" expanded="true" />
+            <marker date="1512378163350" expanded="true" signature="27808:27869" ph="select count... all_tables" />
+            <marker date="1512378163350" expanded="true" signature="28094:28364" ph="create table... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="28501:28560" ph="select count... all_tables" />
+            <marker date="1512378163350" expanded="true" signature="28757:29026" ph="create table... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="29163:29220" ph="select count... all_tables" />
+            <marker date="1512378163350" expanded="true" signature="29417:29633" ph="create table... ROOM" />
+            <marker date="1512378163350" expanded="true" signature="29770:29834" ph="select count... all_tables" />
+            <marker date="1512378163350" expanded="true" signature="30031:30542" ph="create table... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="31463:31491" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31463:31504" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31463:31517" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31463:31530" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31463:31543" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31998:32076" ph="insert into CLIENT... " />
+            <marker date="1512378163350" expanded="true" signature="32531:32594" ph="insert into ROOM... " />
+            <marker date="1512378163350" expanded="true" signature="33541:33594" ph="select count... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="35952:36038" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="36275:36359" ph="select * fro... name" />
+            <marker date="1512378163350" expanded="true" signature="36290:36340" ph="select name CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="36611:36706" ph="insert into RESERVATION... " />
+            <marker date="1512378163350" expanded="true" signature="36945:37024" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="40667:40751" ph="select * fro... name" />
+            <marker date="1512378163350" expanded="true" signature="40682:40732" ph="select name CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="41023:41116" ph="insert into RESERVATION... " />
+            <marker date="1512378163350" expanded="true" signature="41855:41976" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="42216:42333" ph="delete from " />
+            <marker date="1512378163350" expanded="true" signature="42983:43008" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="46992:47034" ph="select count... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="46992:47043" ph="select count... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="47353:47397" ph="select * fro... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="48043:48097" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="48043:48110" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="48563:48686" ph="select sum(d... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="48920:49063" ph="select check... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="49397:49596" ph="select clien... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="50738:50790" ph="select count... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="51035:51110" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="51732:51775" ph="select * fro... ROOM" />
+            <marker date="1512378163350" expanded="true" signature="52687:52732" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="52687:52745" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="53337:53548" ph="select custo... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="53850:54047" ph="select clien... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="54856:54905" ph="select count... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="55213:55246" ph="select * fro... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="55213:55255" ph="select * fro... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="55893:55945" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="55893:55958" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="56354:56566" ph="select custo... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="56882:57058" ph="select room,... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="58112:58161" ph="select count... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="58406:58479" ph="insert into CLIENT... " />
+>>>>>>> 90008abafa2b6e21b1c31111e4fc3636f1c0e755
           </folding>
         </state>
       </provider>
@@ -717,6 +963,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+<<<<<<< HEAD
             <element signature="e#13404#13612#0" expanded="true" />
             <element signature="e#13611#13612#0" expanded="true" />
             <element signature="e#15988#16192#0" expanded="true" />
@@ -775,6 +1022,78 @@
             <marker date="1512371493209" expanded="true" signature="54826:55002" ph="select room,... CLIENT" />
             <marker date="1512371493209" expanded="true" signature="55949:55998" ph="select count... CLIENT" />
             <marker date="1512371493209" expanded="true" signature="56223:56296" ph="insert into CLIENT... " />
+=======
+            <element signature="imports" expanded="true" />
+            <element signature="e#13667#13875#0" expanded="true" />
+            <element signature="e#13874#13875#0" expanded="true" />
+            <element signature="e#16251#16455#0" expanded="true" />
+            <element signature="e#16454#16455#0" expanded="true" />
+            <element signature="e#18773#18989#0" expanded="true" />
+            <element signature="e#18988#18989#0" expanded="true" />
+            <element signature="e#19595#19813#0" expanded="true" />
+            <element signature="e#19812#19813#0" expanded="true" />
+            <element signature="e#20425#20637#0" expanded="true" />
+            <element signature="e#20636#20637#0" expanded="true" />
+            <element signature="e#21217#21431#0" expanded="true" />
+            <element signature="e#21430#21431#0" expanded="true" />
+            <element signature="e#22028#22248#0" expanded="true" />
+            <element signature="e#22247#22248#0" expanded="true" />
+            <element signature="e#22870#23082#0" expanded="true" />
+            <element signature="e#23081#23082#0" expanded="true" />
+            <element signature="e#23660#23872#0" expanded="true" />
+            <element signature="e#23871#23872#0" expanded="true" />
+            <marker date="1512378163350" expanded="true" signature="27808:27869" ph="select count... all_tables" />
+            <marker date="1512378163350" expanded="true" signature="28094:28364" ph="create table... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="28501:28560" ph="select count... all_tables" />
+            <marker date="1512378163350" expanded="true" signature="28757:29026" ph="create table... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="29163:29220" ph="select count... all_tables" />
+            <marker date="1512378163350" expanded="true" signature="29417:29633" ph="create table... ROOM" />
+            <marker date="1512378163350" expanded="true" signature="29770:29834" ph="select count... all_tables" />
+            <marker date="1512378163350" expanded="true" signature="30031:30542" ph="create table... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="31463:31491" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31463:31504" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31463:31517" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31463:31530" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31463:31543" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31998:32076" ph="insert into CLIENT... " />
+            <marker date="1512378163350" expanded="true" signature="32531:32594" ph="insert into ROOM... " />
+            <marker date="1512378163350" expanded="true" signature="33541:33594" ph="select count... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="35952:36038" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="36275:36359" ph="select * fro... name" />
+            <marker date="1512378163350" expanded="true" signature="36290:36340" ph="select name CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="36611:36706" ph="insert into RESERVATION... " />
+            <marker date="1512378163350" expanded="true" signature="36945:37024" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="40667:40751" ph="select * fro... name" />
+            <marker date="1512378163350" expanded="true" signature="40682:40732" ph="select name CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="41023:41116" ph="insert into RESERVATION... " />
+            <marker date="1512378163350" expanded="true" signature="41855:41976" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="42216:42333" ph="delete from " />
+            <marker date="1512378163350" expanded="true" signature="42983:43008" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="46992:47034" ph="select count... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="46992:47043" ph="select count... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="47353:47397" ph="select * fro... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="48043:48097" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="48043:48110" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="48563:48686" ph="select sum(d... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="48920:49063" ph="select check... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="49397:49596" ph="select clien... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="50738:50790" ph="select count... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="51035:51110" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="51732:51775" ph="select * fro... ROOM" />
+            <marker date="1512378163350" expanded="true" signature="52687:52732" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="52687:52745" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="53337:53548" ph="select custo... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="53850:54047" ph="select clien... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="54856:54905" ph="select count... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="55213:55246" ph="select * fro... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="55213:55255" ph="select * fro... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="55893:55945" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="55893:55958" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="56354:56566" ph="select custo... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="56882:57058" ph="select room,... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="58112:58161" ph="select count... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="58406:58479" ph="insert into CLIENT... " />
+>>>>>>> 90008abafa2b6e21b1c31111e4fc3636f1c0e755
           </folding>
         </state>
       </provider>
@@ -784,6 +1103,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+<<<<<<< HEAD
             <element signature="e#13404#13612#0" expanded="true" />
             <element signature="e#13611#13612#0" expanded="true" />
             <element signature="e#15988#16192#0" expanded="true" />
@@ -842,6 +1162,78 @@
             <marker date="1512371493209" expanded="true" signature="54826:55002" ph="select room,... CLIENT" />
             <marker date="1512371493209" expanded="true" signature="55949:55998" ph="select count... CLIENT" />
             <marker date="1512371493209" expanded="true" signature="56223:56296" ph="insert into CLIENT... " />
+=======
+            <element signature="imports" expanded="true" />
+            <element signature="e#13667#13875#0" expanded="true" />
+            <element signature="e#13874#13875#0" expanded="true" />
+            <element signature="e#16251#16455#0" expanded="true" />
+            <element signature="e#16454#16455#0" expanded="true" />
+            <element signature="e#18773#18989#0" expanded="true" />
+            <element signature="e#18988#18989#0" expanded="true" />
+            <element signature="e#19595#19813#0" expanded="true" />
+            <element signature="e#19812#19813#0" expanded="true" />
+            <element signature="e#20425#20637#0" expanded="true" />
+            <element signature="e#20636#20637#0" expanded="true" />
+            <element signature="e#21217#21431#0" expanded="true" />
+            <element signature="e#21430#21431#0" expanded="true" />
+            <element signature="e#22028#22248#0" expanded="true" />
+            <element signature="e#22247#22248#0" expanded="true" />
+            <element signature="e#22870#23082#0" expanded="true" />
+            <element signature="e#23081#23082#0" expanded="true" />
+            <element signature="e#23660#23872#0" expanded="true" />
+            <element signature="e#23871#23872#0" expanded="true" />
+            <marker date="1512378163350" expanded="true" signature="27808:27869" ph="select count... all_tables" />
+            <marker date="1512378163350" expanded="true" signature="28094:28364" ph="create table... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="28501:28560" ph="select count... all_tables" />
+            <marker date="1512378163350" expanded="true" signature="28757:29026" ph="create table... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="29163:29220" ph="select count... all_tables" />
+            <marker date="1512378163350" expanded="true" signature="29417:29633" ph="create table... ROOM" />
+            <marker date="1512378163350" expanded="true" signature="29770:29834" ph="select count... all_tables" />
+            <marker date="1512378163350" expanded="true" signature="30031:30542" ph="create table... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="31463:31491" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31463:31504" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31463:31517" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31463:31530" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31463:31543" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31998:32076" ph="insert into CLIENT... " />
+            <marker date="1512378163350" expanded="true" signature="32531:32594" ph="insert into ROOM... " />
+            <marker date="1512378163350" expanded="true" signature="33541:33594" ph="select count... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="35952:36038" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="36275:36359" ph="select * fro... name" />
+            <marker date="1512378163350" expanded="true" signature="36290:36340" ph="select name CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="36611:36706" ph="insert into RESERVATION... " />
+            <marker date="1512378163350" expanded="true" signature="36945:37024" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="40667:40751" ph="select * fro... name" />
+            <marker date="1512378163350" expanded="true" signature="40682:40732" ph="select name CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="41023:41116" ph="insert into RESERVATION... " />
+            <marker date="1512378163350" expanded="true" signature="41855:41976" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="42216:42333" ph="delete from " />
+            <marker date="1512378163350" expanded="true" signature="42983:43008" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="46992:47034" ph="select count... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="46992:47043" ph="select count... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="47353:47397" ph="select * fro... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="48043:48097" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="48043:48110" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="48563:48686" ph="select sum(d... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="48920:49063" ph="select check... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="49397:49596" ph="select clien... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="50738:50790" ph="select count... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="51035:51110" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="51732:51775" ph="select * fro... ROOM" />
+            <marker date="1512378163350" expanded="true" signature="52687:52732" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="52687:52745" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="53337:53548" ph="select custo... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="53850:54047" ph="select clien... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="54856:54905" ph="select count... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="55213:55246" ph="select * fro... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="55213:55255" ph="select * fro... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="55893:55945" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="55893:55958" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="56354:56566" ph="select custo... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="56882:57058" ph="select room,... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="58112:58161" ph="select count... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="58406:58479" ph="insert into CLIENT... " />
+>>>>>>> 90008abafa2b6e21b1c31111e4fc3636f1c0e755
           </folding>
         </state>
       </provider>
@@ -851,6 +1243,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+<<<<<<< HEAD
             <element signature="e#13404#13612#0" expanded="true" />
             <element signature="e#13611#13612#0" expanded="true" />
             <element signature="e#15988#16192#0" expanded="true" />
@@ -909,6 +1302,78 @@
             <marker date="1512371493209" expanded="true" signature="54826:55002" ph="select room,... CLIENT" />
             <marker date="1512371493209" expanded="true" signature="55949:55998" ph="select count... CLIENT" />
             <marker date="1512371493209" expanded="true" signature="56223:56296" ph="insert into CLIENT... " />
+=======
+            <element signature="imports" expanded="true" />
+            <element signature="e#13667#13875#0" expanded="true" />
+            <element signature="e#13874#13875#0" expanded="true" />
+            <element signature="e#16251#16455#0" expanded="true" />
+            <element signature="e#16454#16455#0" expanded="true" />
+            <element signature="e#18773#18989#0" expanded="true" />
+            <element signature="e#18988#18989#0" expanded="true" />
+            <element signature="e#19595#19813#0" expanded="true" />
+            <element signature="e#19812#19813#0" expanded="true" />
+            <element signature="e#20425#20637#0" expanded="true" />
+            <element signature="e#20636#20637#0" expanded="true" />
+            <element signature="e#21217#21431#0" expanded="true" />
+            <element signature="e#21430#21431#0" expanded="true" />
+            <element signature="e#22028#22248#0" expanded="true" />
+            <element signature="e#22247#22248#0" expanded="true" />
+            <element signature="e#22870#23082#0" expanded="true" />
+            <element signature="e#23081#23082#0" expanded="true" />
+            <element signature="e#23660#23872#0" expanded="true" />
+            <element signature="e#23871#23872#0" expanded="true" />
+            <marker date="1512378163350" expanded="true" signature="27808:27869" ph="select count... all_tables" />
+            <marker date="1512378163350" expanded="true" signature="28094:28364" ph="create table... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="28501:28560" ph="select count... all_tables" />
+            <marker date="1512378163350" expanded="true" signature="28757:29026" ph="create table... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="29163:29220" ph="select count... all_tables" />
+            <marker date="1512378163350" expanded="true" signature="29417:29633" ph="create table... ROOM" />
+            <marker date="1512378163350" expanded="true" signature="29770:29834" ph="select count... all_tables" />
+            <marker date="1512378163350" expanded="true" signature="30031:30542" ph="create table... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="31463:31491" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31463:31504" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31463:31517" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31463:31530" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31463:31543" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31998:32076" ph="insert into CLIENT... " />
+            <marker date="1512378163350" expanded="true" signature="32531:32594" ph="insert into ROOM... " />
+            <marker date="1512378163350" expanded="true" signature="33541:33594" ph="select count... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="35952:36038" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="36275:36359" ph="select * fro... name" />
+            <marker date="1512378163350" expanded="true" signature="36290:36340" ph="select name CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="36611:36706" ph="insert into RESERVATION... " />
+            <marker date="1512378163350" expanded="true" signature="36945:37024" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="40667:40751" ph="select * fro... name" />
+            <marker date="1512378163350" expanded="true" signature="40682:40732" ph="select name CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="41023:41116" ph="insert into RESERVATION... " />
+            <marker date="1512378163350" expanded="true" signature="41855:41976" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="42216:42333" ph="delete from " />
+            <marker date="1512378163350" expanded="true" signature="42983:43008" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="46992:47034" ph="select count... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="46992:47043" ph="select count... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="47353:47397" ph="select * fro... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="48043:48097" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="48043:48110" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="48563:48686" ph="select sum(d... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="48920:49063" ph="select check... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="49397:49596" ph="select clien... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="50738:50790" ph="select count... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="51035:51110" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="51732:51775" ph="select * fro... ROOM" />
+            <marker date="1512378163350" expanded="true" signature="52687:52732" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="52687:52745" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="53337:53548" ph="select custo... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="53850:54047" ph="select clien... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="54856:54905" ph="select count... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="55213:55246" ph="select * fro... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="55213:55255" ph="select * fro... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="55893:55945" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="55893:55958" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="56354:56566" ph="select custo... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="56882:57058" ph="select room,... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="58112:58161" ph="select count... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="58406:58479" ph="insert into CLIENT... " />
+>>>>>>> 90008abafa2b6e21b1c31111e4fc3636f1c0e755
           </folding>
         </state>
       </provider>
@@ -918,6 +1383,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+<<<<<<< HEAD
             <element signature="e#13404#13612#0" expanded="true" />
             <element signature="e#13611#13612#0" expanded="true" />
             <element signature="e#15988#16192#0" expanded="true" />
@@ -976,6 +1442,78 @@
             <marker date="1512371493209" expanded="true" signature="54826:55002" ph="select room,... CLIENT" />
             <marker date="1512371493209" expanded="true" signature="55949:55998" ph="select count... CLIENT" />
             <marker date="1512371493209" expanded="true" signature="56223:56296" ph="insert into CLIENT... " />
+=======
+            <element signature="imports" expanded="true" />
+            <element signature="e#13667#13875#0" expanded="true" />
+            <element signature="e#13874#13875#0" expanded="true" />
+            <element signature="e#16251#16455#0" expanded="true" />
+            <element signature="e#16454#16455#0" expanded="true" />
+            <element signature="e#18773#18989#0" expanded="true" />
+            <element signature="e#18988#18989#0" expanded="true" />
+            <element signature="e#19595#19813#0" expanded="true" />
+            <element signature="e#19812#19813#0" expanded="true" />
+            <element signature="e#20425#20637#0" expanded="true" />
+            <element signature="e#20636#20637#0" expanded="true" />
+            <element signature="e#21217#21431#0" expanded="true" />
+            <element signature="e#21430#21431#0" expanded="true" />
+            <element signature="e#22028#22248#0" expanded="true" />
+            <element signature="e#22247#22248#0" expanded="true" />
+            <element signature="e#22870#23082#0" expanded="true" />
+            <element signature="e#23081#23082#0" expanded="true" />
+            <element signature="e#23660#23872#0" expanded="true" />
+            <element signature="e#23871#23872#0" expanded="true" />
+            <marker date="1512378163350" expanded="true" signature="27808:27869" ph="select count... all_tables" />
+            <marker date="1512378163350" expanded="true" signature="28094:28364" ph="create table... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="28501:28560" ph="select count... all_tables" />
+            <marker date="1512378163350" expanded="true" signature="28757:29026" ph="create table... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="29163:29220" ph="select count... all_tables" />
+            <marker date="1512378163350" expanded="true" signature="29417:29633" ph="create table... ROOM" />
+            <marker date="1512378163350" expanded="true" signature="29770:29834" ph="select count... all_tables" />
+            <marker date="1512378163350" expanded="true" signature="30031:30542" ph="create table... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="31463:31491" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31463:31504" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31463:31517" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31463:31530" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31463:31543" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31998:32076" ph="insert into CLIENT... " />
+            <marker date="1512378163350" expanded="true" signature="32531:32594" ph="insert into ROOM... " />
+            <marker date="1512378163350" expanded="true" signature="33541:33594" ph="select count... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="35952:36038" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="36275:36359" ph="select * fro... name" />
+            <marker date="1512378163350" expanded="true" signature="36290:36340" ph="select name CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="36611:36706" ph="insert into RESERVATION... " />
+            <marker date="1512378163350" expanded="true" signature="36945:37024" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="40667:40751" ph="select * fro... name" />
+            <marker date="1512378163350" expanded="true" signature="40682:40732" ph="select name CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="41023:41116" ph="insert into RESERVATION... " />
+            <marker date="1512378163350" expanded="true" signature="41855:41976" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="42216:42333" ph="delete from " />
+            <marker date="1512378163350" expanded="true" signature="42983:43008" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="46992:47034" ph="select count... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="46992:47043" ph="select count... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="47353:47397" ph="select * fro... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="48043:48097" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="48043:48110" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="48563:48686" ph="select sum(d... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="48920:49063" ph="select check... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="49397:49596" ph="select clien... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="50738:50790" ph="select count... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="51035:51110" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="51732:51775" ph="select * fro... ROOM" />
+            <marker date="1512378163350" expanded="true" signature="52687:52732" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="52687:52745" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="53337:53548" ph="select custo... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="53850:54047" ph="select clien... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="54856:54905" ph="select count... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="55213:55246" ph="select * fro... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="55213:55255" ph="select * fro... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="55893:55945" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="55893:55958" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="56354:56566" ph="select custo... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="56882:57058" ph="select room,... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="58112:58161" ph="select count... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="58406:58479" ph="insert into CLIENT... " />
+>>>>>>> 90008abafa2b6e21b1c31111e4fc3636f1c0e755
           </folding>
         </state>
       </provider>
@@ -985,6 +1523,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+<<<<<<< HEAD
             <element signature="e#13404#13612#0" expanded="true" />
             <element signature="e#13611#13612#0" expanded="true" />
             <element signature="e#15988#16192#0" expanded="true" />
@@ -1043,6 +1582,78 @@
             <marker date="1512371493209" expanded="true" signature="54826:55002" ph="select room,... CLIENT" />
             <marker date="1512371493209" expanded="true" signature="55949:55998" ph="select count... CLIENT" />
             <marker date="1512371493209" expanded="true" signature="56223:56296" ph="insert into CLIENT... " />
+=======
+            <element signature="imports" expanded="true" />
+            <element signature="e#13667#13875#0" expanded="true" />
+            <element signature="e#13874#13875#0" expanded="true" />
+            <element signature="e#16251#16455#0" expanded="true" />
+            <element signature="e#16454#16455#0" expanded="true" />
+            <element signature="e#18773#18989#0" expanded="true" />
+            <element signature="e#18988#18989#0" expanded="true" />
+            <element signature="e#19595#19813#0" expanded="true" />
+            <element signature="e#19812#19813#0" expanded="true" />
+            <element signature="e#20425#20637#0" expanded="true" />
+            <element signature="e#20636#20637#0" expanded="true" />
+            <element signature="e#21217#21431#0" expanded="true" />
+            <element signature="e#21430#21431#0" expanded="true" />
+            <element signature="e#22028#22248#0" expanded="true" />
+            <element signature="e#22247#22248#0" expanded="true" />
+            <element signature="e#22870#23082#0" expanded="true" />
+            <element signature="e#23081#23082#0" expanded="true" />
+            <element signature="e#23660#23872#0" expanded="true" />
+            <element signature="e#23871#23872#0" expanded="true" />
+            <marker date="1512378163350" expanded="true" signature="27808:27869" ph="select count... all_tables" />
+            <marker date="1512378163350" expanded="true" signature="28094:28364" ph="create table... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="28501:28560" ph="select count... all_tables" />
+            <marker date="1512378163350" expanded="true" signature="28757:29026" ph="create table... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="29163:29220" ph="select count... all_tables" />
+            <marker date="1512378163350" expanded="true" signature="29417:29633" ph="create table... ROOM" />
+            <marker date="1512378163350" expanded="true" signature="29770:29834" ph="select count... all_tables" />
+            <marker date="1512378163350" expanded="true" signature="30031:30542" ph="create table... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="31463:31491" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31463:31504" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31463:31517" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31463:31530" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31463:31543" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31998:32076" ph="insert into CLIENT... " />
+            <marker date="1512378163350" expanded="true" signature="32531:32594" ph="insert into ROOM... " />
+            <marker date="1512378163350" expanded="true" signature="33541:33594" ph="select count... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="35952:36038" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="36275:36359" ph="select * fro... name" />
+            <marker date="1512378163350" expanded="true" signature="36290:36340" ph="select name CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="36611:36706" ph="insert into RESERVATION... " />
+            <marker date="1512378163350" expanded="true" signature="36945:37024" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="40667:40751" ph="select * fro... name" />
+            <marker date="1512378163350" expanded="true" signature="40682:40732" ph="select name CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="41023:41116" ph="insert into RESERVATION... " />
+            <marker date="1512378163350" expanded="true" signature="41855:41976" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="42216:42333" ph="delete from " />
+            <marker date="1512378163350" expanded="true" signature="42983:43008" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="46992:47034" ph="select count... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="46992:47043" ph="select count... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="47353:47397" ph="select * fro... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="48043:48097" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="48043:48110" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="48563:48686" ph="select sum(d... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="48920:49063" ph="select check... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="49397:49596" ph="select clien... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="50738:50790" ph="select count... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="51035:51110" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="51732:51775" ph="select * fro... ROOM" />
+            <marker date="1512378163350" expanded="true" signature="52687:52732" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="52687:52745" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="53337:53548" ph="select custo... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="53850:54047" ph="select clien... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="54856:54905" ph="select count... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="55213:55246" ph="select * fro... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="55213:55255" ph="select * fro... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="55893:55945" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="55893:55958" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="56354:56566" ph="select custo... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="56882:57058" ph="select room,... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="58112:58161" ph="select count... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="58406:58479" ph="insert into CLIENT... " />
+>>>>>>> 90008abafa2b6e21b1c31111e4fc3636f1c0e755
           </folding>
         </state>
       </provider>
@@ -1052,6 +1663,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+<<<<<<< HEAD
             <element signature="e#13404#13612#0" expanded="true" />
             <element signature="e#13611#13612#0" expanded="true" />
             <element signature="e#15988#16192#0" expanded="true" />
@@ -1110,6 +1722,78 @@
             <marker date="1512371493209" expanded="true" signature="54826:55002" ph="select room,... CLIENT" />
             <marker date="1512371493209" expanded="true" signature="55949:55998" ph="select count... CLIENT" />
             <marker date="1512371493209" expanded="true" signature="56223:56296" ph="insert into CLIENT... " />
+=======
+            <element signature="imports" expanded="true" />
+            <element signature="e#13667#13875#0" expanded="true" />
+            <element signature="e#13874#13875#0" expanded="true" />
+            <element signature="e#16251#16455#0" expanded="true" />
+            <element signature="e#16454#16455#0" expanded="true" />
+            <element signature="e#18773#18989#0" expanded="true" />
+            <element signature="e#18988#18989#0" expanded="true" />
+            <element signature="e#19595#19813#0" expanded="true" />
+            <element signature="e#19812#19813#0" expanded="true" />
+            <element signature="e#20425#20637#0" expanded="true" />
+            <element signature="e#20636#20637#0" expanded="true" />
+            <element signature="e#21217#21431#0" expanded="true" />
+            <element signature="e#21430#21431#0" expanded="true" />
+            <element signature="e#22028#22248#0" expanded="true" />
+            <element signature="e#22247#22248#0" expanded="true" />
+            <element signature="e#22870#23082#0" expanded="true" />
+            <element signature="e#23081#23082#0" expanded="true" />
+            <element signature="e#23660#23872#0" expanded="true" />
+            <element signature="e#23871#23872#0" expanded="true" />
+            <marker date="1512378163350" expanded="true" signature="27808:27869" ph="select count... all_tables" />
+            <marker date="1512378163350" expanded="true" signature="28094:28364" ph="create table... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="28501:28560" ph="select count... all_tables" />
+            <marker date="1512378163350" expanded="true" signature="28757:29026" ph="create table... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="29163:29220" ph="select count... all_tables" />
+            <marker date="1512378163350" expanded="true" signature="29417:29633" ph="create table... ROOM" />
+            <marker date="1512378163350" expanded="true" signature="29770:29834" ph="select count... all_tables" />
+            <marker date="1512378163350" expanded="true" signature="30031:30542" ph="create table... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="31463:31491" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31463:31504" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31463:31517" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31463:31530" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31463:31543" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31998:32076" ph="insert into CLIENT... " />
+            <marker date="1512378163350" expanded="true" signature="32531:32594" ph="insert into ROOM... " />
+            <marker date="1512378163350" expanded="true" signature="33541:33594" ph="select count... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="35952:36038" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="36275:36359" ph="select * fro... name" />
+            <marker date="1512378163350" expanded="true" signature="36290:36340" ph="select name CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="36611:36706" ph="insert into RESERVATION... " />
+            <marker date="1512378163350" expanded="true" signature="36945:37024" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="40667:40751" ph="select * fro... name" />
+            <marker date="1512378163350" expanded="true" signature="40682:40732" ph="select name CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="41023:41116" ph="insert into RESERVATION... " />
+            <marker date="1512378163350" expanded="true" signature="41855:41976" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="42216:42333" ph="delete from " />
+            <marker date="1512378163350" expanded="true" signature="42983:43008" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="46992:47034" ph="select count... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="46992:47043" ph="select count... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="47353:47397" ph="select * fro... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="48043:48097" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="48043:48110" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="48563:48686" ph="select sum(d... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="48920:49063" ph="select check... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="49397:49596" ph="select clien... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="50738:50790" ph="select count... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="51035:51110" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="51732:51775" ph="select * fro... ROOM" />
+            <marker date="1512378163350" expanded="true" signature="52687:52732" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="52687:52745" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="53337:53548" ph="select custo... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="53850:54047" ph="select clien... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="54856:54905" ph="select count... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="55213:55246" ph="select * fro... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="55213:55255" ph="select * fro... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="55893:55945" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="55893:55958" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="56354:56566" ph="select custo... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="56882:57058" ph="select room,... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="58112:58161" ph="select count... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="58406:58479" ph="insert into CLIENT... " />
+>>>>>>> 90008abafa2b6e21b1c31111e4fc3636f1c0e755
           </folding>
         </state>
       </provider>
@@ -1119,6 +1803,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+<<<<<<< HEAD
             <element signature="e#13404#13612#0" expanded="true" />
             <element signature="e#13611#13612#0" expanded="true" />
             <element signature="e#15988#16192#0" expanded="true" />
@@ -1177,6 +1862,78 @@
             <marker date="1512371493209" expanded="true" signature="54826:55002" ph="select room,... CLIENT" />
             <marker date="1512371493209" expanded="true" signature="55949:55998" ph="select count... CLIENT" />
             <marker date="1512371493209" expanded="true" signature="56223:56296" ph="insert into CLIENT... " />
+=======
+            <element signature="imports" expanded="true" />
+            <element signature="e#13667#13875#0" expanded="true" />
+            <element signature="e#13874#13875#0" expanded="true" />
+            <element signature="e#16251#16455#0" expanded="true" />
+            <element signature="e#16454#16455#0" expanded="true" />
+            <element signature="e#18773#18989#0" expanded="true" />
+            <element signature="e#18988#18989#0" expanded="true" />
+            <element signature="e#19595#19813#0" expanded="true" />
+            <element signature="e#19812#19813#0" expanded="true" />
+            <element signature="e#20425#20637#0" expanded="true" />
+            <element signature="e#20636#20637#0" expanded="true" />
+            <element signature="e#21217#21431#0" expanded="true" />
+            <element signature="e#21430#21431#0" expanded="true" />
+            <element signature="e#22028#22248#0" expanded="true" />
+            <element signature="e#22247#22248#0" expanded="true" />
+            <element signature="e#22870#23082#0" expanded="true" />
+            <element signature="e#23081#23082#0" expanded="true" />
+            <element signature="e#23660#23872#0" expanded="true" />
+            <element signature="e#23871#23872#0" expanded="true" />
+            <marker date="1512378163350" expanded="true" signature="27808:27869" ph="select count... all_tables" />
+            <marker date="1512378163350" expanded="true" signature="28094:28364" ph="create table... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="28501:28560" ph="select count... all_tables" />
+            <marker date="1512378163350" expanded="true" signature="28757:29026" ph="create table... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="29163:29220" ph="select count... all_tables" />
+            <marker date="1512378163350" expanded="true" signature="29417:29633" ph="create table... ROOM" />
+            <marker date="1512378163350" expanded="true" signature="29770:29834" ph="select count... all_tables" />
+            <marker date="1512378163350" expanded="true" signature="30031:30542" ph="create table... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="31463:31491" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31463:31504" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31463:31517" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31463:31530" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31463:31543" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31998:32076" ph="insert into CLIENT... " />
+            <marker date="1512378163350" expanded="true" signature="32531:32594" ph="insert into ROOM... " />
+            <marker date="1512378163350" expanded="true" signature="33541:33594" ph="select count... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="35952:36038" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="36275:36359" ph="select * fro... name" />
+            <marker date="1512378163350" expanded="true" signature="36290:36340" ph="select name CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="36611:36706" ph="insert into RESERVATION... " />
+            <marker date="1512378163350" expanded="true" signature="36945:37024" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="40667:40751" ph="select * fro... name" />
+            <marker date="1512378163350" expanded="true" signature="40682:40732" ph="select name CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="41023:41116" ph="insert into RESERVATION... " />
+            <marker date="1512378163350" expanded="true" signature="41855:41976" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="42216:42333" ph="delete from " />
+            <marker date="1512378163350" expanded="true" signature="42983:43008" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="46992:47034" ph="select count... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="46992:47043" ph="select count... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="47353:47397" ph="select * fro... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="48043:48097" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="48043:48110" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="48563:48686" ph="select sum(d... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="48920:49063" ph="select check... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="49397:49596" ph="select clien... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="50738:50790" ph="select count... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="51035:51110" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="51732:51775" ph="select * fro... ROOM" />
+            <marker date="1512378163350" expanded="true" signature="52687:52732" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="52687:52745" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="53337:53548" ph="select custo... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="53850:54047" ph="select clien... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="54856:54905" ph="select count... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="55213:55246" ph="select * fro... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="55213:55255" ph="select * fro... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="55893:55945" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="55893:55958" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="56354:56566" ph="select custo... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="56882:57058" ph="select room,... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="58112:58161" ph="select count... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="58406:58479" ph="insert into CLIENT... " />
+>>>>>>> 90008abafa2b6e21b1c31111e4fc3636f1c0e755
           </folding>
         </state>
       </provider>
@@ -1186,6 +1943,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+<<<<<<< HEAD
             <element signature="e#13404#13612#0" expanded="true" />
             <element signature="e#13611#13612#0" expanded="true" />
             <element signature="e#15988#16192#0" expanded="true" />
@@ -1244,6 +2002,78 @@
             <marker date="1512371493209" expanded="true" signature="54826:55002" ph="select room,... CLIENT" />
             <marker date="1512371493209" expanded="true" signature="55949:55998" ph="select count... CLIENT" />
             <marker date="1512371493209" expanded="true" signature="56223:56296" ph="insert into CLIENT... " />
+=======
+            <element signature="imports" expanded="true" />
+            <element signature="e#13667#13875#0" expanded="true" />
+            <element signature="e#13874#13875#0" expanded="true" />
+            <element signature="e#16251#16455#0" expanded="true" />
+            <element signature="e#16454#16455#0" expanded="true" />
+            <element signature="e#18773#18989#0" expanded="true" />
+            <element signature="e#18988#18989#0" expanded="true" />
+            <element signature="e#19595#19813#0" expanded="true" />
+            <element signature="e#19812#19813#0" expanded="true" />
+            <element signature="e#20425#20637#0" expanded="true" />
+            <element signature="e#20636#20637#0" expanded="true" />
+            <element signature="e#21217#21431#0" expanded="true" />
+            <element signature="e#21430#21431#0" expanded="true" />
+            <element signature="e#22028#22248#0" expanded="true" />
+            <element signature="e#22247#22248#0" expanded="true" />
+            <element signature="e#22870#23082#0" expanded="true" />
+            <element signature="e#23081#23082#0" expanded="true" />
+            <element signature="e#23660#23872#0" expanded="true" />
+            <element signature="e#23871#23872#0" expanded="true" />
+            <marker date="1512378163350" expanded="true" signature="27808:27869" ph="select count... all_tables" />
+            <marker date="1512378163350" expanded="true" signature="28094:28364" ph="create table... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="28501:28560" ph="select count... all_tables" />
+            <marker date="1512378163350" expanded="true" signature="28757:29026" ph="create table... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="29163:29220" ph="select count... all_tables" />
+            <marker date="1512378163350" expanded="true" signature="29417:29633" ph="create table... ROOM" />
+            <marker date="1512378163350" expanded="true" signature="29770:29834" ph="select count... all_tables" />
+            <marker date="1512378163350" expanded="true" signature="30031:30542" ph="create table... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="31463:31491" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31463:31504" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31463:31517" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31463:31530" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31463:31543" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31998:32076" ph="insert into CLIENT... " />
+            <marker date="1512378163350" expanded="true" signature="32531:32594" ph="insert into ROOM... " />
+            <marker date="1512378163350" expanded="true" signature="33541:33594" ph="select count... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="35952:36038" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="36275:36359" ph="select * fro... name" />
+            <marker date="1512378163350" expanded="true" signature="36290:36340" ph="select name CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="36611:36706" ph="insert into RESERVATION... " />
+            <marker date="1512378163350" expanded="true" signature="36945:37024" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="40667:40751" ph="select * fro... name" />
+            <marker date="1512378163350" expanded="true" signature="40682:40732" ph="select name CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="41023:41116" ph="insert into RESERVATION... " />
+            <marker date="1512378163350" expanded="true" signature="41855:41976" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="42216:42333" ph="delete from " />
+            <marker date="1512378163350" expanded="true" signature="42983:43008" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="46992:47034" ph="select count... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="46992:47043" ph="select count... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="47353:47397" ph="select * fro... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="48043:48097" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="48043:48110" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="48563:48686" ph="select sum(d... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="48920:49063" ph="select check... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="49397:49596" ph="select clien... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="50738:50790" ph="select count... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="51035:51110" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="51732:51775" ph="select * fro... ROOM" />
+            <marker date="1512378163350" expanded="true" signature="52687:52732" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="52687:52745" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="53337:53548" ph="select custo... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="53850:54047" ph="select clien... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="54856:54905" ph="select count... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="55213:55246" ph="select * fro... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="55213:55255" ph="select * fro... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="55893:55945" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="55893:55958" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="56354:56566" ph="select custo... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="56882:57058" ph="select room,... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="58112:58161" ph="select count... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="58406:58479" ph="insert into CLIENT... " />
+>>>>>>> 90008abafa2b6e21b1c31111e4fc3636f1c0e755
           </folding>
         </state>
       </provider>
@@ -1253,6 +2083,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+<<<<<<< HEAD
             <element signature="e#13404#13612#0" expanded="true" />
             <element signature="e#13611#13612#0" expanded="true" />
             <element signature="e#15988#16192#0" expanded="true" />
@@ -1311,6 +2142,78 @@
             <marker date="1512371493209" expanded="true" signature="54826:55002" ph="select room,... CLIENT" />
             <marker date="1512371493209" expanded="true" signature="55949:55998" ph="select count... CLIENT" />
             <marker date="1512371493209" expanded="true" signature="56223:56296" ph="insert into CLIENT... " />
+=======
+            <element signature="imports" expanded="true" />
+            <element signature="e#13667#13875#0" expanded="true" />
+            <element signature="e#13874#13875#0" expanded="true" />
+            <element signature="e#16251#16455#0" expanded="true" />
+            <element signature="e#16454#16455#0" expanded="true" />
+            <element signature="e#18773#18989#0" expanded="true" />
+            <element signature="e#18988#18989#0" expanded="true" />
+            <element signature="e#19595#19813#0" expanded="true" />
+            <element signature="e#19812#19813#0" expanded="true" />
+            <element signature="e#20425#20637#0" expanded="true" />
+            <element signature="e#20636#20637#0" expanded="true" />
+            <element signature="e#21217#21431#0" expanded="true" />
+            <element signature="e#21430#21431#0" expanded="true" />
+            <element signature="e#22028#22248#0" expanded="true" />
+            <element signature="e#22247#22248#0" expanded="true" />
+            <element signature="e#22870#23082#0" expanded="true" />
+            <element signature="e#23081#23082#0" expanded="true" />
+            <element signature="e#23660#23872#0" expanded="true" />
+            <element signature="e#23871#23872#0" expanded="true" />
+            <marker date="1512378163350" expanded="true" signature="27808:27869" ph="select count... all_tables" />
+            <marker date="1512378163350" expanded="true" signature="28094:28364" ph="create table... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="28501:28560" ph="select count... all_tables" />
+            <marker date="1512378163350" expanded="true" signature="28757:29026" ph="create table... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="29163:29220" ph="select count... all_tables" />
+            <marker date="1512378163350" expanded="true" signature="29417:29633" ph="create table... ROOM" />
+            <marker date="1512378163350" expanded="true" signature="29770:29834" ph="select count... all_tables" />
+            <marker date="1512378163350" expanded="true" signature="30031:30542" ph="create table... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="31463:31491" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31463:31504" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31463:31517" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31463:31530" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31463:31543" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31998:32076" ph="insert into CLIENT... " />
+            <marker date="1512378163350" expanded="true" signature="32531:32594" ph="insert into ROOM... " />
+            <marker date="1512378163350" expanded="true" signature="33541:33594" ph="select count... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="35952:36038" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="36275:36359" ph="select * fro... name" />
+            <marker date="1512378163350" expanded="true" signature="36290:36340" ph="select name CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="36611:36706" ph="insert into RESERVATION... " />
+            <marker date="1512378163350" expanded="true" signature="36945:37024" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="40667:40751" ph="select * fro... name" />
+            <marker date="1512378163350" expanded="true" signature="40682:40732" ph="select name CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="41023:41116" ph="insert into RESERVATION... " />
+            <marker date="1512378163350" expanded="true" signature="41855:41976" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="42216:42333" ph="delete from " />
+            <marker date="1512378163350" expanded="true" signature="42983:43008" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="46992:47034" ph="select count... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="46992:47043" ph="select count... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="47353:47397" ph="select * fro... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="48043:48097" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="48043:48110" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="48563:48686" ph="select sum(d... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="48920:49063" ph="select check... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="49397:49596" ph="select clien... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="50738:50790" ph="select count... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="51035:51110" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="51732:51775" ph="select * fro... ROOM" />
+            <marker date="1512378163350" expanded="true" signature="52687:52732" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="52687:52745" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="53337:53548" ph="select custo... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="53850:54047" ph="select clien... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="54856:54905" ph="select count... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="55213:55246" ph="select * fro... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="55213:55255" ph="select * fro... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="55893:55945" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="55893:55958" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="56354:56566" ph="select custo... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="56882:57058" ph="select room,... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="58112:58161" ph="select count... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="58406:58479" ph="insert into CLIENT... " />
+>>>>>>> 90008abafa2b6e21b1c31111e4fc3636f1c0e755
           </folding>
         </state>
       </provider>
@@ -1320,6 +2223,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+<<<<<<< HEAD
             <element signature="e#13404#13612#0" expanded="true" />
             <element signature="e#13611#13612#0" expanded="true" />
             <element signature="e#15988#16192#0" expanded="true" />
@@ -1378,6 +2282,78 @@
             <marker date="1512371493209" expanded="true" signature="54826:55002" ph="select room,... CLIENT" />
             <marker date="1512371493209" expanded="true" signature="55949:55998" ph="select count... CLIENT" />
             <marker date="1512371493209" expanded="true" signature="56223:56296" ph="insert into CLIENT... " />
+=======
+            <element signature="imports" expanded="true" />
+            <element signature="e#13667#13875#0" expanded="true" />
+            <element signature="e#13874#13875#0" expanded="true" />
+            <element signature="e#16251#16455#0" expanded="true" />
+            <element signature="e#16454#16455#0" expanded="true" />
+            <element signature="e#18773#18989#0" expanded="true" />
+            <element signature="e#18988#18989#0" expanded="true" />
+            <element signature="e#19595#19813#0" expanded="true" />
+            <element signature="e#19812#19813#0" expanded="true" />
+            <element signature="e#20425#20637#0" expanded="true" />
+            <element signature="e#20636#20637#0" expanded="true" />
+            <element signature="e#21217#21431#0" expanded="true" />
+            <element signature="e#21430#21431#0" expanded="true" />
+            <element signature="e#22028#22248#0" expanded="true" />
+            <element signature="e#22247#22248#0" expanded="true" />
+            <element signature="e#22870#23082#0" expanded="true" />
+            <element signature="e#23081#23082#0" expanded="true" />
+            <element signature="e#23660#23872#0" expanded="true" />
+            <element signature="e#23871#23872#0" expanded="true" />
+            <marker date="1512378163350" expanded="true" signature="27808:27869" ph="select count... all_tables" />
+            <marker date="1512378163350" expanded="true" signature="28094:28364" ph="create table... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="28501:28560" ph="select count... all_tables" />
+            <marker date="1512378163350" expanded="true" signature="28757:29026" ph="create table... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="29163:29220" ph="select count... all_tables" />
+            <marker date="1512378163350" expanded="true" signature="29417:29633" ph="create table... ROOM" />
+            <marker date="1512378163350" expanded="true" signature="29770:29834" ph="select count... all_tables" />
+            <marker date="1512378163350" expanded="true" signature="30031:30542" ph="create table... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="31463:31491" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31463:31504" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31463:31517" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31463:31530" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31463:31543" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31998:32076" ph="insert into CLIENT... " />
+            <marker date="1512378163350" expanded="true" signature="32531:32594" ph="insert into ROOM... " />
+            <marker date="1512378163350" expanded="true" signature="33541:33594" ph="select count... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="35952:36038" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="36275:36359" ph="select * fro... name" />
+            <marker date="1512378163350" expanded="true" signature="36290:36340" ph="select name CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="36611:36706" ph="insert into RESERVATION... " />
+            <marker date="1512378163350" expanded="true" signature="36945:37024" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="40667:40751" ph="select * fro... name" />
+            <marker date="1512378163350" expanded="true" signature="40682:40732" ph="select name CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="41023:41116" ph="insert into RESERVATION... " />
+            <marker date="1512378163350" expanded="true" signature="41855:41976" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="42216:42333" ph="delete from " />
+            <marker date="1512378163350" expanded="true" signature="42983:43008" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="46992:47034" ph="select count... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="46992:47043" ph="select count... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="47353:47397" ph="select * fro... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="48043:48097" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="48043:48110" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="48563:48686" ph="select sum(d... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="48920:49063" ph="select check... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="49397:49596" ph="select clien... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="50738:50790" ph="select count... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="51035:51110" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="51732:51775" ph="select * fro... ROOM" />
+            <marker date="1512378163350" expanded="true" signature="52687:52732" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="52687:52745" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="53337:53548" ph="select custo... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="53850:54047" ph="select clien... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="54856:54905" ph="select count... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="55213:55246" ph="select * fro... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="55213:55255" ph="select * fro... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="55893:55945" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="55893:55958" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="56354:56566" ph="select custo... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="56882:57058" ph="select room,... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="58112:58161" ph="select count... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="58406:58479" ph="insert into CLIENT... " />
+>>>>>>> 90008abafa2b6e21b1c31111e4fc3636f1c0e755
           </folding>
         </state>
       </provider>
@@ -1387,6 +2363,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+<<<<<<< HEAD
             <element signature="e#13404#13612#0" expanded="true" />
             <element signature="e#13611#13612#0" expanded="true" />
             <element signature="e#15988#16192#0" expanded="true" />
@@ -1445,6 +2422,78 @@
             <marker date="1512371493209" expanded="true" signature="54826:55002" ph="select room,... CLIENT" />
             <marker date="1512371493209" expanded="true" signature="55949:55998" ph="select count... CLIENT" />
             <marker date="1512371493209" expanded="true" signature="56223:56296" ph="insert into CLIENT... " />
+=======
+            <element signature="imports" expanded="true" />
+            <element signature="e#13667#13875#0" expanded="true" />
+            <element signature="e#13874#13875#0" expanded="true" />
+            <element signature="e#16251#16455#0" expanded="true" />
+            <element signature="e#16454#16455#0" expanded="true" />
+            <element signature="e#18773#18989#0" expanded="true" />
+            <element signature="e#18988#18989#0" expanded="true" />
+            <element signature="e#19595#19813#0" expanded="true" />
+            <element signature="e#19812#19813#0" expanded="true" />
+            <element signature="e#20425#20637#0" expanded="true" />
+            <element signature="e#20636#20637#0" expanded="true" />
+            <element signature="e#21217#21431#0" expanded="true" />
+            <element signature="e#21430#21431#0" expanded="true" />
+            <element signature="e#22028#22248#0" expanded="true" />
+            <element signature="e#22247#22248#0" expanded="true" />
+            <element signature="e#22870#23082#0" expanded="true" />
+            <element signature="e#23081#23082#0" expanded="true" />
+            <element signature="e#23660#23872#0" expanded="true" />
+            <element signature="e#23871#23872#0" expanded="true" />
+            <marker date="1512378163350" expanded="true" signature="27808:27869" ph="select count... all_tables" />
+            <marker date="1512378163350" expanded="true" signature="28094:28364" ph="create table... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="28501:28560" ph="select count... all_tables" />
+            <marker date="1512378163350" expanded="true" signature="28757:29026" ph="create table... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="29163:29220" ph="select count... all_tables" />
+            <marker date="1512378163350" expanded="true" signature="29417:29633" ph="create table... ROOM" />
+            <marker date="1512378163350" expanded="true" signature="29770:29834" ph="select count... all_tables" />
+            <marker date="1512378163350" expanded="true" signature="30031:30542" ph="create table... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="31463:31491" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31463:31504" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31463:31517" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31463:31530" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31463:31543" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31998:32076" ph="insert into CLIENT... " />
+            <marker date="1512378163350" expanded="true" signature="32531:32594" ph="insert into ROOM... " />
+            <marker date="1512378163350" expanded="true" signature="33541:33594" ph="select count... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="35952:36038" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="36275:36359" ph="select * fro... name" />
+            <marker date="1512378163350" expanded="true" signature="36290:36340" ph="select name CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="36611:36706" ph="insert into RESERVATION... " />
+            <marker date="1512378163350" expanded="true" signature="36945:37024" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="40667:40751" ph="select * fro... name" />
+            <marker date="1512378163350" expanded="true" signature="40682:40732" ph="select name CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="41023:41116" ph="insert into RESERVATION... " />
+            <marker date="1512378163350" expanded="true" signature="41855:41976" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="42216:42333" ph="delete from " />
+            <marker date="1512378163350" expanded="true" signature="42983:43008" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="46992:47034" ph="select count... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="46992:47043" ph="select count... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="47353:47397" ph="select * fro... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="48043:48097" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="48043:48110" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="48563:48686" ph="select sum(d... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="48920:49063" ph="select check... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="49397:49596" ph="select clien... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="50738:50790" ph="select count... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="51035:51110" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="51732:51775" ph="select * fro... ROOM" />
+            <marker date="1512378163350" expanded="true" signature="52687:52732" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="52687:52745" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="53337:53548" ph="select custo... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="53850:54047" ph="select clien... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="54856:54905" ph="select count... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="55213:55246" ph="select * fro... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="55213:55255" ph="select * fro... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="55893:55945" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="55893:55958" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="56354:56566" ph="select custo... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="56882:57058" ph="select room,... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="58112:58161" ph="select count... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="58406:58479" ph="insert into CLIENT... " />
+>>>>>>> 90008abafa2b6e21b1c31111e4fc3636f1c0e755
           </folding>
         </state>
       </provider>
@@ -1454,6 +2503,7 @@
         <state relative-caret-position="2250">
           <caret line="157" column="18" lean-forward="false" selection-start-line="157" selection-start-column="18" selection-end-line="157" selection-end-column="18" />
           <folding>
+<<<<<<< HEAD
             <element signature="e#13404#13612#0" expanded="true" />
             <element signature="e#13611#13612#0" expanded="true" />
             <element signature="e#15988#16192#0" expanded="true" />
@@ -1512,6 +2562,78 @@
             <marker date="1512371493209" expanded="true" signature="54826:55002" ph="select room,... CLIENT" />
             <marker date="1512371493209" expanded="true" signature="55949:55998" ph="select count... CLIENT" />
             <marker date="1512371493209" expanded="true" signature="56223:56296" ph="insert into CLIENT... " />
+=======
+            <element signature="imports" expanded="true" />
+            <element signature="e#13667#13875#0" expanded="true" />
+            <element signature="e#13874#13875#0" expanded="true" />
+            <element signature="e#16251#16455#0" expanded="true" />
+            <element signature="e#16454#16455#0" expanded="true" />
+            <element signature="e#18773#18989#0" expanded="true" />
+            <element signature="e#18988#18989#0" expanded="true" />
+            <element signature="e#19595#19813#0" expanded="true" />
+            <element signature="e#19812#19813#0" expanded="true" />
+            <element signature="e#20425#20637#0" expanded="true" />
+            <element signature="e#20636#20637#0" expanded="true" />
+            <element signature="e#21217#21431#0" expanded="true" />
+            <element signature="e#21430#21431#0" expanded="true" />
+            <element signature="e#22028#22248#0" expanded="true" />
+            <element signature="e#22247#22248#0" expanded="true" />
+            <element signature="e#22870#23082#0" expanded="true" />
+            <element signature="e#23081#23082#0" expanded="true" />
+            <element signature="e#23660#23872#0" expanded="true" />
+            <element signature="e#23871#23872#0" expanded="true" />
+            <marker date="1512378163350" expanded="true" signature="27808:27869" ph="select count... all_tables" />
+            <marker date="1512378163350" expanded="true" signature="28094:28364" ph="create table... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="28501:28560" ph="select count... all_tables" />
+            <marker date="1512378163350" expanded="true" signature="28757:29026" ph="create table... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="29163:29220" ph="select count... all_tables" />
+            <marker date="1512378163350" expanded="true" signature="29417:29633" ph="create table... ROOM" />
+            <marker date="1512378163350" expanded="true" signature="29770:29834" ph="select count... all_tables" />
+            <marker date="1512378163350" expanded="true" signature="30031:30542" ph="create table... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="31463:31491" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31463:31504" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31463:31517" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31463:31530" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31463:31543" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31998:32076" ph="insert into CLIENT... " />
+            <marker date="1512378163350" expanded="true" signature="32531:32594" ph="insert into ROOM... " />
+            <marker date="1512378163350" expanded="true" signature="33541:33594" ph="select count... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="35952:36038" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="36275:36359" ph="select * fro... name" />
+            <marker date="1512378163350" expanded="true" signature="36290:36340" ph="select name CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="36611:36706" ph="insert into RESERVATION... " />
+            <marker date="1512378163350" expanded="true" signature="36945:37024" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="40667:40751" ph="select * fro... name" />
+            <marker date="1512378163350" expanded="true" signature="40682:40732" ph="select name CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="41023:41116" ph="insert into RESERVATION... " />
+            <marker date="1512378163350" expanded="true" signature="41855:41976" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="42216:42333" ph="delete from " />
+            <marker date="1512378163350" expanded="true" signature="42983:43008" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="46992:47034" ph="select count... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="46992:47043" ph="select count... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="47353:47397" ph="select * fro... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="48043:48097" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="48043:48110" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="48563:48686" ph="select sum(d... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="48920:49063" ph="select check... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="49397:49596" ph="select clien... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="50738:50790" ph="select count... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="51035:51110" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="51732:51775" ph="select * fro... ROOM" />
+            <marker date="1512378163350" expanded="true" signature="52687:52732" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="52687:52745" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="53337:53548" ph="select custo... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="53850:54047" ph="select clien... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="54856:54905" ph="select count... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="55213:55246" ph="select * fro... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="55213:55255" ph="select * fro... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="55893:55945" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="55893:55958" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="56354:56566" ph="select custo... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="56882:57058" ph="select room,... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="58112:58161" ph="select count... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="58406:58479" ph="insert into CLIENT... " />
+>>>>>>> 90008abafa2b6e21b1c31111e4fc3636f1c0e755
           </folding>
         </state>
       </provider>
@@ -1521,6 +2643,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+<<<<<<< HEAD
             <element signature="e#13404#13612#0" expanded="true" />
             <element signature="e#13611#13612#0" expanded="true" />
             <element signature="e#15988#16192#0" expanded="true" />
@@ -1579,6 +2702,78 @@
             <marker date="1512371493209" expanded="true" signature="54826:55002" ph="select room,... CLIENT" />
             <marker date="1512371493209" expanded="true" signature="55949:55998" ph="select count... CLIENT" />
             <marker date="1512371493209" expanded="true" signature="56223:56296" ph="insert into CLIENT... " />
+=======
+            <element signature="imports" expanded="true" />
+            <element signature="e#13667#13875#0" expanded="true" />
+            <element signature="e#13874#13875#0" expanded="true" />
+            <element signature="e#16251#16455#0" expanded="true" />
+            <element signature="e#16454#16455#0" expanded="true" />
+            <element signature="e#18773#18989#0" expanded="true" />
+            <element signature="e#18988#18989#0" expanded="true" />
+            <element signature="e#19595#19813#0" expanded="true" />
+            <element signature="e#19812#19813#0" expanded="true" />
+            <element signature="e#20425#20637#0" expanded="true" />
+            <element signature="e#20636#20637#0" expanded="true" />
+            <element signature="e#21217#21431#0" expanded="true" />
+            <element signature="e#21430#21431#0" expanded="true" />
+            <element signature="e#22028#22248#0" expanded="true" />
+            <element signature="e#22247#22248#0" expanded="true" />
+            <element signature="e#22870#23082#0" expanded="true" />
+            <element signature="e#23081#23082#0" expanded="true" />
+            <element signature="e#23660#23872#0" expanded="true" />
+            <element signature="e#23871#23872#0" expanded="true" />
+            <marker date="1512378163350" expanded="true" signature="27808:27869" ph="select count... all_tables" />
+            <marker date="1512378163350" expanded="true" signature="28094:28364" ph="create table... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="28501:28560" ph="select count... all_tables" />
+            <marker date="1512378163350" expanded="true" signature="28757:29026" ph="create table... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="29163:29220" ph="select count... all_tables" />
+            <marker date="1512378163350" expanded="true" signature="29417:29633" ph="create table... ROOM" />
+            <marker date="1512378163350" expanded="true" signature="29770:29834" ph="select count... all_tables" />
+            <marker date="1512378163350" expanded="true" signature="30031:30542" ph="create table... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="31463:31491" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31463:31504" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31463:31517" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31463:31530" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31463:31543" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31998:32076" ph="insert into CLIENT... " />
+            <marker date="1512378163350" expanded="true" signature="32531:32594" ph="insert into ROOM... " />
+            <marker date="1512378163350" expanded="true" signature="33541:33594" ph="select count... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="35952:36038" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="36275:36359" ph="select * fro... name" />
+            <marker date="1512378163350" expanded="true" signature="36290:36340" ph="select name CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="36611:36706" ph="insert into RESERVATION... " />
+            <marker date="1512378163350" expanded="true" signature="36945:37024" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="40667:40751" ph="select * fro... name" />
+            <marker date="1512378163350" expanded="true" signature="40682:40732" ph="select name CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="41023:41116" ph="insert into RESERVATION... " />
+            <marker date="1512378163350" expanded="true" signature="41855:41976" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="42216:42333" ph="delete from " />
+            <marker date="1512378163350" expanded="true" signature="42983:43008" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="46992:47034" ph="select count... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="46992:47043" ph="select count... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="47353:47397" ph="select * fro... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="48043:48097" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="48043:48110" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="48563:48686" ph="select sum(d... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="48920:49063" ph="select check... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="49397:49596" ph="select clien... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="50738:50790" ph="select count... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="51035:51110" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="51732:51775" ph="select * fro... ROOM" />
+            <marker date="1512378163350" expanded="true" signature="52687:52732" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="52687:52745" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="53337:53548" ph="select custo... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="53850:54047" ph="select clien... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="54856:54905" ph="select count... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="55213:55246" ph="select * fro... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="55213:55255" ph="select * fro... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="55893:55945" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="55893:55958" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="56354:56566" ph="select custo... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="56882:57058" ph="select room,... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="58112:58161" ph="select count... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="58406:58479" ph="insert into CLIENT... " />
+>>>>>>> 90008abafa2b6e21b1c31111e4fc3636f1c0e755
           </folding>
         </state>
       </provider>
@@ -1588,6 +2783,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+<<<<<<< HEAD
             <element signature="e#13404#13612#0" expanded="true" />
             <element signature="e#13611#13612#0" expanded="true" />
             <element signature="e#15988#16192#0" expanded="true" />
@@ -1646,6 +2842,78 @@
             <marker date="1512371493209" expanded="true" signature="54826:55002" ph="select room,... CLIENT" />
             <marker date="1512371493209" expanded="true" signature="55949:55998" ph="select count... CLIENT" />
             <marker date="1512371493209" expanded="true" signature="56223:56296" ph="insert into CLIENT... " />
+=======
+            <element signature="imports" expanded="true" />
+            <element signature="e#13667#13875#0" expanded="true" />
+            <element signature="e#13874#13875#0" expanded="true" />
+            <element signature="e#16251#16455#0" expanded="true" />
+            <element signature="e#16454#16455#0" expanded="true" />
+            <element signature="e#18773#18989#0" expanded="true" />
+            <element signature="e#18988#18989#0" expanded="true" />
+            <element signature="e#19595#19813#0" expanded="true" />
+            <element signature="e#19812#19813#0" expanded="true" />
+            <element signature="e#20425#20637#0" expanded="true" />
+            <element signature="e#20636#20637#0" expanded="true" />
+            <element signature="e#21217#21431#0" expanded="true" />
+            <element signature="e#21430#21431#0" expanded="true" />
+            <element signature="e#22028#22248#0" expanded="true" />
+            <element signature="e#22247#22248#0" expanded="true" />
+            <element signature="e#22870#23082#0" expanded="true" />
+            <element signature="e#23081#23082#0" expanded="true" />
+            <element signature="e#23660#23872#0" expanded="true" />
+            <element signature="e#23871#23872#0" expanded="true" />
+            <marker date="1512378163350" expanded="true" signature="27808:27869" ph="select count... all_tables" />
+            <marker date="1512378163350" expanded="true" signature="28094:28364" ph="create table... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="28501:28560" ph="select count... all_tables" />
+            <marker date="1512378163350" expanded="true" signature="28757:29026" ph="create table... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="29163:29220" ph="select count... all_tables" />
+            <marker date="1512378163350" expanded="true" signature="29417:29633" ph="create table... ROOM" />
+            <marker date="1512378163350" expanded="true" signature="29770:29834" ph="select count... all_tables" />
+            <marker date="1512378163350" expanded="true" signature="30031:30542" ph="create table... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="31463:31491" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31463:31504" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31463:31517" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31463:31530" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31463:31543" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31998:32076" ph="insert into CLIENT... " />
+            <marker date="1512378163350" expanded="true" signature="32531:32594" ph="insert into ROOM... " />
+            <marker date="1512378163350" expanded="true" signature="33541:33594" ph="select count... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="35952:36038" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="36275:36359" ph="select * fro... name" />
+            <marker date="1512378163350" expanded="true" signature="36290:36340" ph="select name CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="36611:36706" ph="insert into RESERVATION... " />
+            <marker date="1512378163350" expanded="true" signature="36945:37024" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="40667:40751" ph="select * fro... name" />
+            <marker date="1512378163350" expanded="true" signature="40682:40732" ph="select name CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="41023:41116" ph="insert into RESERVATION... " />
+            <marker date="1512378163350" expanded="true" signature="41855:41976" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="42216:42333" ph="delete from " />
+            <marker date="1512378163350" expanded="true" signature="42983:43008" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="46992:47034" ph="select count... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="46992:47043" ph="select count... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="47353:47397" ph="select * fro... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="48043:48097" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="48043:48110" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="48563:48686" ph="select sum(d... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="48920:49063" ph="select check... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="49397:49596" ph="select clien... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="50738:50790" ph="select count... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="51035:51110" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="51732:51775" ph="select * fro... ROOM" />
+            <marker date="1512378163350" expanded="true" signature="52687:52732" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="52687:52745" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="53337:53548" ph="select custo... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="53850:54047" ph="select clien... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="54856:54905" ph="select count... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="55213:55246" ph="select * fro... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="55213:55255" ph="select * fro... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="55893:55945" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="55893:55958" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="56354:56566" ph="select custo... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="56882:57058" ph="select room,... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="58112:58161" ph="select count... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="58406:58479" ph="insert into CLIENT... " />
+>>>>>>> 90008abafa2b6e21b1c31111e4fc3636f1c0e755
           </folding>
         </state>
       </provider>
@@ -1663,6 +2931,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Hotel.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="229">
           <caret line="848" column="0" lean-forward="false" selection-start-line="848" selection-start-column="0" selection-end-line="848" selection-end-column="0" />
           <folding>
@@ -1724,6 +2993,81 @@
             <marker date="1512371493209" expanded="true" signature="54826:55002" ph="select room,... CLIENT" />
             <marker date="1512371493209" expanded="true" signature="55949:55998" ph="select count... CLIENT" />
             <marker date="1512371493209" expanded="true" signature="56223:56296" ph="insert into CLIENT... " />
+=======
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#13667#13875#0" expanded="true" />
+            <element signature="e#13874#13875#0" expanded="true" />
+            <element signature="e#16251#16455#0" expanded="true" />
+            <element signature="e#16454#16455#0" expanded="true" />
+            <element signature="e#18773#18989#0" expanded="true" />
+            <element signature="e#18988#18989#0" expanded="true" />
+            <element signature="e#19595#19813#0" expanded="true" />
+            <element signature="e#19812#19813#0" expanded="true" />
+            <element signature="e#20425#20637#0" expanded="true" />
+            <element signature="e#20636#20637#0" expanded="true" />
+            <element signature="e#21217#21431#0" expanded="true" />
+            <element signature="e#21430#21431#0" expanded="true" />
+            <element signature="e#22028#22248#0" expanded="true" />
+            <element signature="e#22247#22248#0" expanded="true" />
+            <element signature="e#22870#23082#0" expanded="true" />
+            <element signature="e#23081#23082#0" expanded="true" />
+            <element signature="e#23660#23872#0" expanded="true" />
+            <element signature="e#23871#23872#0" expanded="true" />
+            <marker date="1512378163350" expanded="true" signature="27808:27869" ph="select count... all_tables" />
+            <marker date="1512378163350" expanded="true" signature="28094:28364" ph="create table... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="28501:28560" ph="select count... all_tables" />
+            <marker date="1512378163350" expanded="true" signature="28757:29026" ph="create table... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="29163:29220" ph="select count... all_tables" />
+            <marker date="1512378163350" expanded="true" signature="29417:29633" ph="create table... ROOM" />
+            <marker date="1512378163350" expanded="true" signature="29770:29834" ph="select count... all_tables" />
+            <marker date="1512378163350" expanded="true" signature="30031:30542" ph="create table... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="31463:31491" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31463:31504" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31463:31517" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31463:31530" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31463:31543" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="31998:32076" ph="insert into CLIENT... " />
+            <marker date="1512378163350" expanded="true" signature="32531:32594" ph="insert into ROOM... " />
+            <marker date="1512378163350" expanded="true" signature="33541:33594" ph="select count... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="35952:36038" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="36275:36359" ph="select * fro... name" />
+            <marker date="1512378163350" expanded="true" signature="36290:36340" ph="select name CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="36611:36706" ph="insert into RESERVATION... " />
+            <marker date="1512378163350" expanded="true" signature="36945:37024" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="40667:40751" ph="select * fro... name" />
+            <marker date="1512378163350" expanded="true" signature="40682:40732" ph="select name CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="41023:41116" ph="insert into RESERVATION... " />
+            <marker date="1512378163350" expanded="true" signature="41855:41976" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="42216:42333" ph="delete from " />
+            <marker date="1512378163350" expanded="true" signature="42983:43008" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="46992:47034" ph="select count... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="46992:47043" ph="select count... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="47353:47397" ph="select * fro... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="48043:48097" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="48043:48110" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="48563:48686" ph="select sum(d... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="48920:49063" ph="select check... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="49397:49596" ph="select clien... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="50738:50790" ph="select count... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="51035:51110" ph="insert into CUSTOMER... " />
+            <marker date="1512378163350" expanded="true" signature="51732:51775" ph="select * fro... ROOM" />
+            <marker date="1512378163350" expanded="true" signature="52687:52732" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="52687:52745" ph="select count... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="53337:53548" ph="select custo... CUSTOMER" />
+            <marker date="1512378163350" expanded="true" signature="53850:54047" ph="select clien... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="54856:54905" ph="select count... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="55213:55246" ph="select * fro... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="55213:55255" ph="select * fro... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="55893:55945" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="55893:55958" ph="select * fro... RESERVATION" />
+            <marker date="1512378163350" expanded="true" signature="56354:56566" ph="select custo... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="56882:57058" ph="select room,... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="58112:58161" ph="select count... CLIENT" />
+            <marker date="1512378163350" expanded="true" signature="58406:58479" ph="insert into CLIENT... " />
+>>>>>>> 90008abafa2b6e21b1c31111e4fc3636f1c0e755
           </folding>
         </state>
       </provider>
