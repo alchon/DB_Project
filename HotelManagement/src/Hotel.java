@@ -732,10 +732,12 @@ public class Hotel extends JFrame implements ActionListener{
             Class.forName("oracle.jdbc.OracleDriver");
             dbTest = DriverManager.getConnection("jdbc:oracle:thin:" + "@localhost:1521:XE", username, password);
             System.out.println("Connect Success -id: "+username);
+            JOptionPane.showMessageDialog(null, "로그인 되었습니다.");
             ViewHotel();
         } catch (SQLException e) {
 //            e.printStackTrace();
             System.out.println("Fail to connect");
+            JOptionPane.showMessageDialog(null, "로그인 할 수가 없습니다. 아이디와 비밀번호를 다시 입력해주세요.");
         } catch(Exception e) {
             System.out.println("Exception:"+e);
         }
@@ -753,7 +755,7 @@ public class Hotel extends JFrame implements ActionListener{
                         " sex   varchar2(20)," +
                         " address   varchar2(20)," +
                         " phone varchar2(20)," +
-                        " primary key(NAME))";
+                        " primary key(phone))";
                 stmt = dbTest.prepareStatement(sqlStr);
                 rs = stmt.executeQuery();
             }
@@ -767,7 +769,7 @@ public class Hotel extends JFrame implements ActionListener{
                         " sex   varchar2(20)," +
                         " address   varchar2(20)," +
                         " phone varchar2(20)," +
-                        " primary key(name))";
+                        " primary key(phone))";
                 stmt = dbTest.prepareStatement(sqlStr);
                 rs = stmt.executeQuery();
             }
@@ -795,8 +797,8 @@ public class Hotel extends JFrame implements ActionListener{
                         " days  INT ," +
                         " room  varchar2(20)," +
                         " checkin    date," +
-                        " foreign key (customer_name) REFERENCES CUSTOMER (NAME)," +
-                        " foreign key (client_name) REFERENCES CLIENT(NAME)," +
+                        " foreign key (customer_name) REFERENCES CUSTOMER (phone)," +
+                        " foreign key (client_name) REFERENCES CLIENT(phone)," +
                         " foreign key (room) REFERENCES ROOM(NUM))";
                 stmt = dbTest.prepareStatement(sqlStr);
                 rs = stmt.executeQuery();
