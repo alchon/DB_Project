@@ -1101,7 +1101,8 @@ public class Hotel extends JFrame implements ActionListener{
                     }
                 }
             }
-
+            stmt.close();
+            rs.close();
         }catch(SQLException e) {
             e.printStackTrace();
         }
