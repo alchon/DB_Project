@@ -18,10 +18,6 @@ import java.util.Random;
  * @author 서현범 (2016003590)
  */
 
-/**
- * 날짜가 2017/12/60 이렇게 들어오면 터진다.
- *
- */
 
 public class Hotel extends JFrame implements ActionListener{
 
@@ -107,34 +103,6 @@ public class Hotel extends JFrame implements ActionListener{
     private JTextField new_client_phonetext = new JTextField(6);
     private JButton new_client_registerbtn = new JButton("직원등록");
     private JButton new_client_cancelbtn = new JButton("취소");
-    // 등록되지 않은 사용자 팝업
-    private JFrame not_customer_fs = new JFrame("안내");
-    private JLabel not_customerLabel = new JLabel("가입되지 않은 고객입니다.");
-    private JButton not_customerbtn = new JButton("확인");
-    // 날짜가 중복
-    private JFrame override_date_fs = new JFrame("안내");
-    private JLabel override_dateLabel = new JLabel("이미 존재합니다.");
-    private JButton override_datebtn = new JButton("확인");
-    // 예약이 없
-    private JFrame notreserve_fs = new JFrame("안내");
-    private JLabel notreserveLabel = new JLabel("예약이 존재하지 않습니다.");
-    private JButton notreservebtn = new JButton("확인");
-    // 예약 등록/변경
-    private JFrame new_reserve_fs = new JFrame("안내");
-    private JLabel new_reserveLabel = new JLabel("예약 등록/변경이 되었습니다.");
-    private JButton new_reservebtn = new JButton("확인");
-    // 예약 취소
-    private JFrame reserve_cancel_fs = new JFrame("안내");
-    private JLabel reserve_cancelLabel = new JLabel("예약 취소 되었습니다.");
-    private JButton reserve_cancelbtn = new JButton("확인");
-    // 가입 성공
-    private JFrame registerok_fs = new JFrame("안내");
-    private JLabel registerokLabel = new JLabel("등록 되었습니다.");
-    private JButton registerokbtn = new JButton("확인");
-    // 날짜 형식 틀릴시
-    private JFrame dateformat_fs = new JFrame("안내");
-    private JLabel dateformatLabel = new JLabel("공백 또는 날짜 형식을 확인하세요.");
-    private JButton dateformatbtn = new JButton("확인");
 
     private Hotel() {
         panel.setLayout(null);
@@ -498,153 +466,6 @@ public class Hotel extends JFrame implements ActionListener{
         client_fs.setVisible(true);
     }
 
-    private void not_customer() {
-        not_customer_fs.addWindowListener(new WindowAdapter() {
-            @Override
-            public void windowClosing(WindowEvent e) {
-                not_customer_fs.setVisible(false);
-                not_customer_fs.dispose();
-            }
-        });
-        not_customer_fs.setLayout(null);
-        Container c = not_customer_fs.getContentPane();
-        not_customerLabel.setFont(new Font("Sans Serif", Font.PLAIN, 15));
-        not_customerLabel.setBounds(70,20,200,20);
-        not_customerbtn.setBounds(100,70,100,40);
-        c.add(not_customerLabel);
-        c.add(not_customerbtn);
-        not_customerbtn.addActionListener(this);
-        not_customer_fs.setSize(300,150);
-        not_customer_fs.setLocation(300,200);
-        not_customer_fs.setVisible(true);
-    }
-
-    private void override_date() {
-        override_date_fs.addWindowListener(new WindowAdapter() {
-            @Override
-            public void windowClosing(WindowEvent e) {
-                override_date_fs.setVisible(false);
-                override_date_fs.dispose();
-            }
-        });
-        override_date_fs.setLayout(null);
-        Container c = override_date_fs.getContentPane();
-        override_dateLabel.setFont(new Font("Sans Serif", Font.PLAIN, 15));
-        override_dateLabel.setBounds(70,20,200,20);
-        override_datebtn.setBounds(100,70,100,40);
-        c.add(override_dateLabel);
-        c.add(override_datebtn);
-        override_datebtn.addActionListener(this);
-        override_date_fs.setSize(300,150);
-        override_date_fs.setLocation(300,200);
-        override_date_fs.setVisible(true);
-    }
-
-    private void not_reserve() {
-        notreserve_fs.addWindowListener(new WindowAdapter() {
-            @Override
-            public void windowClosing(WindowEvent e) {
-                notreserve_fs.setVisible(false);
-                notreserve_fs.dispose();
-            }
-        });
-        notreserve_fs.setLayout(null);
-        Container c = notreserve_fs.getContentPane();
-        notreserveLabel.setFont(new Font("Sans Serif", Font.PLAIN, 15));
-        notreserveLabel.setBounds(70,20,200,20);
-        notreservebtn.setBounds(100,70,100,40);
-        c.add(notreserveLabel);
-        c.add(notreservebtn);
-        notreservebtn.addActionListener(this);
-        notreserve_fs.setSize(300,150);
-        notreserve_fs.setLocation(300,200);
-        notreserve_fs.setVisible(true);
-    }
-
-    private void new_reserve() {
-        new_reserve_fs.addWindowListener(new WindowAdapter() {
-            @Override
-            public void windowClosing(WindowEvent e) {
-                new_reserve_fs.setVisible(false);
-                new_reserve_fs.dispose();
-            }
-        });
-        new_reserve_fs.setLayout(null);
-        Container c = new_reserve_fs.getContentPane();
-        new_reserveLabel.setFont(new Font("Sans Serif", Font.PLAIN, 15));
-        new_reserveLabel.setBounds(70,20,200,20);
-        new_reservebtn.setBounds(100,70,100,40);
-        c.add(new_reserveLabel);
-        c.add(new_reservebtn);
-        new_reservebtn.addActionListener(this);
-        new_reserve_fs.setSize(300,150);
-        new_reserve_fs.setLocation(300,200);
-        new_reserve_fs.setVisible(true);
-    }
-
-    private void reserve_cancel() {
-        reserve_cancel_fs.addWindowListener(new WindowAdapter() {
-            @Override
-            public void windowClosing(WindowEvent e) {
-                reserve_cancel_fs.setVisible(false);
-                reserve_cancel_fs.dispose();
-            }
-        });
-        reserve_cancel_fs.setLayout(null);
-        Container c = reserve_cancel_fs.getContentPane();
-        reserve_cancelLabel.setFont(new Font("Sans Serif", Font.PLAIN, 15));
-        reserve_cancelLabel.setBounds(70,20,200,20);
-        reserve_cancelbtn.setBounds(100,70,100,40);
-        c.add(reserve_cancelLabel);
-        c.add(reserve_cancelbtn);
-        reserve_cancelbtn.addActionListener(this);
-        reserve_cancel_fs.setSize(300,150);
-        reserve_cancel_fs.setLocation(300,200);
-        reserve_cancel_fs.setVisible(true);
-    }
-
-    private void registerok() {
-        registerok_fs.addWindowListener(new WindowAdapter() {
-            @Override
-            public void windowClosing(WindowEvent e) {
-                registerok_fs.setVisible(false);
-                registerok_fs.dispose();
-            }
-        });
-        registerok_fs.setLayout(null);
-        Container c = registerok_fs.getContentPane();
-        registerokLabel.setFont(new Font("Sans Serif", Font.PLAIN, 15));
-        registerokLabel.setBounds(70,20,200,20);
-        registerokbtn.setBounds(100,70,100,40);
-        c.add(registerokLabel);
-        c.add(registerokbtn);
-        registerokbtn.addActionListener(this);
-        registerok_fs.setSize(300,150);
-        registerok_fs.setLocation(300,200);
-        registerok_fs.setVisible(true);
-    }
-
-    private void dateformat() {
-        dateformat_fs.addWindowListener(new WindowAdapter() {
-            @Override
-            public void windowClosing(WindowEvent e) {
-                dateformat_fs.setVisible(false);
-                dateformat_fs.dispose();
-            }
-        });
-        dateformat_fs.setLayout(null);
-        Container c = dateformat_fs.getContentPane();
-        dateformatLabel.setFont(new Font("Sans Serif", Font.PLAIN, 15));
-        dateformatLabel.setBounds(50,20,250,20);
-        dateformatbtn.setBounds(100,70,100,40);
-        c.add(dateformatLabel);
-        c.add(dateformatbtn);
-        dateformatbtn.addActionListener(this);
-        dateformat_fs.setSize(300,150);
-        dateformat_fs.setLocation(300,200);
-        dateformat_fs.setVisible(true);
-    }
-
     @Override
     public void actionPerformed(ActionEvent e) {
         if(e.getSource() == menuItem) {
@@ -673,34 +494,6 @@ public class Hotel extends JFrame implements ActionListener{
         if(e.getSource().equals(new_client_cancelbtn)) {
             client_fs.setVisible(false);
             client_fs.dispose();
-        }
-        if(e.getSource().equals(not_customerbtn)) {
-            not_customer_fs.setVisible(false);
-            not_customer_fs.dispose();
-        }
-        if(e.getSource().equals(notreservebtn)) {
-            notreserve_fs.setVisible(false);
-            notreserve_fs.dispose();
-        }
-        if(e.getSource().equals(override_datebtn)) {
-            override_date_fs.setVisible(false);
-            override_date_fs.dispose();
-        }
-        if(e.getSource().equals(reserve_cancelbtn)) {
-            reserve_cancel_fs.setVisible(false);
-            reserve_cancel_fs.dispose();
-        }
-        if(e.getSource().equals(new_reservebtn)) {
-            new_reserve_fs.setVisible(false);
-            new_reserve_fs.dispose();
-        }
-        if(e.getSource().equals(registerokbtn)) {
-            registerok_fs.setVisible(false);
-            registerok_fs.dispose();
-        }
-        if(e.getSource().equals(dateformatbtn)) {
-            dateformat_fs.setVisible(false);
-            dateformat_fs.dispose();
         }
         if(e.getSource().equals(registerbtn)) {
             reservation();
@@ -793,12 +586,14 @@ public class Hotel extends JFrame implements ActionListener{
             if(rs.getString("count(*)").equals("0")) {
                 sqlStr = "create table RESERVATION(" +
                         " customer_name  varchar2(20)," +
+                        " customer_phone    varchar2(20)," +
                         " client_name   varchar2(20)," +
+                        " client_phone  varchar2(20)," +
                         " days  INT ," +
                         " room  varchar2(20)," +
                         " checkin    date," +
-                        " foreign key (customer_name) REFERENCES CUSTOMER (phone)," +
-                        " foreign key (client_name) REFERENCES CLIENT(phone)," +
+                        " foreign key (customer_phone) REFERENCES CUSTOMER (phone)," +
+                        " foreign key (client_phone) REFERENCES CLIENT(phone)," +
                         " foreign key (room) REFERENCES ROOM(NUM))";
                 stmt = dbTest.prepareStatement(sqlStr);
                 rs = stmt.executeQuery();
@@ -858,6 +653,7 @@ public class Hotel extends JFrame implements ActionListener{
             stmt.close();
             br.close();
             fr.close();
+            JOptionPane.showMessageDialog(null, "데이터가 등록되었습니다.");
         } catch (SQLException e) {
             e.printStackTrace();
         } catch (FileNotFoundException e) {
@@ -912,9 +708,14 @@ public class Hotel extends JFrame implements ActionListener{
                 }
                 rs.next();
                 if(rs.getString("count(*)").equals("0")) {
-                    not_customer();
+                    JOptionPane.showMessageDialog(null, "가입되지 않은 고객입니다.");
                 }
                 else {
+                    sqlStr = "select phone from CUSTOMER where name='"+name+"'";
+                    stmt = dbTest.prepareStatement(sqlStr);
+                    rs = stmt.executeQuery();
+                    rs.next();
+                    String customer_phone = rs.getString("phone");
                     sqlStr = "select count(*) from RESERVATION where customer_name = '"+name+"' or room = '"+room+"'";
                     stmt = dbTest.prepareStatement(sqlStr);
                     rs = stmt.executeQuery();
@@ -925,21 +726,28 @@ public class Hotel extends JFrame implements ActionListener{
                         rs = stmt.executeQuery();
                         rs.next();
                         String clientname = rs.getString("NAME");
-                        sqlStr = "insert into RESERVATION values('"+name+"','"+clientname+"','"+days+"','"+room+"','"+checkin+"')";
+                        sqlStr = "select phone from CLIENT where name='"+clientname+"'";
                         stmt = dbTest.prepareStatement(sqlStr);
                         rs = stmt.executeQuery();
-                        new_reserve();
+                        rs.next();
+                        String client_phone = rs.getString("phone");
+                        sqlStr = "insert into RESERVATION values('"+name+"','"+customer_phone+"','"+clientname+"','"+client_phone+"','"+days+"','"+room+"','"+checkin+"')";
+                        stmt = dbTest.prepareStatement(sqlStr);
+                        rs = stmt.executeQuery();
+                        JOptionPane.showMessageDialog(null, "예약 등록/변경이 되었습니다.");
                     }
                     else {
                         sqlStr = "select * from RESERVATION where customer_name = '"+name+"' or room = '"+room+"'";
                         stmt = dbTest.prepareStatement(sqlStr);
                         rs = stmt.executeQuery();
                         boolean tmp = false;
+                        boolean tmp2 = true;
                         while(rs.next()) {
                             String day = rs.getString("days");
                             String date = rs.getString("checkin");
                             String[] querydate = date.split("-");
                             String[] datetmp = querydate[2].split(" ");
+                            String customer_name = rs.getString("customer_name");
                             querydate[2] = datetmp[0];
                             String[] comparequerydate = new String[Integer.parseInt(day)];
                             for(int i=0; i<Integer.parseInt(day); i++) {
@@ -971,6 +779,19 @@ public class Hotel extends JFrame implements ActionListener{
                                     }
                                 }
                             }
+                            if(customer_name.equals(name) && Integer.parseInt(days) == Integer.parseInt(day)) {
+                                String[] x = date.split("-");
+                                x[2] = x[2].split(" ")[0];
+                                String y = x[0]+"/"+x[1]+"/"+x[2];
+                                if(checkin.equals(y)) {
+                                    sqlStr = "UPDATE RESERVATION set room ='"+room+"' where customer_name='"+name+"' and checkin='"+y+"'";
+                                    stmt = dbTest.prepareStatement(sqlStr);
+                                    rs = stmt.executeQuery();
+                                    tmp2 = false;
+                                    JOptionPane.showMessageDialog(null, "예약 등록/변경이 되었습니다.");
+                                    break;
+                                }
+                            }
                             for(int i=0; i<Integer.parseInt(days); i++) {
                                 for (int j=0; j<Integer.parseInt(day); j++) {
                                     if(compareinputdate[i].equals(comparequerydate[j])) {
@@ -978,24 +799,29 @@ public class Hotel extends JFrame implements ActionListener{
                                         break;
                                     }
                                 }
-                                if(tmp == true) {
+                                if(tmp) {
                                     break;
                                 }
                             }
                         }
-                        if(tmp == true) {
-                            override_date();
+                        if(tmp && tmp2) {
+                            JOptionPane.showMessageDialog(null, "이미 존재합니다.");
                         }
-                        else {
+                        else if(!tmp && tmp2) {
                             sqlStr = "select * from (select name from CLIENT order by DBMS_RANDOM.VALUE) where ROWNUM <= 1";
                             stmt = dbTest.prepareStatement(sqlStr);
                             rs = stmt.executeQuery();
                             rs.next();
                             String clientname = rs.getString("NAME");
-                            sqlStr = "insert into RESERVATION values('"+name+"','"+clientname+"',"+days+",'"+room+"','"+checkin+"')";
+                            sqlStr = "select phone from CLIENT where name='"+clientname+"'";
                             stmt = dbTest.prepareStatement(sqlStr);
                             rs = stmt.executeQuery();
-                            new_reserve();
+                            rs.next();
+                            String client_phone = rs.getString("phone");
+                            sqlStr = "insert into RESERVATION values('"+name+"','"+customer_phone+"','"+clientname+"','"+client_phone+"','"+days+"','"+room+"','"+checkin+"')";
+                            stmt = dbTest.prepareStatement(sqlStr);
+                            rs = stmt.executeQuery();
+                            JOptionPane.showMessageDialog(null, "예약 등록/변경이 되었습니다.");
                         }
                     }
                 }
@@ -1005,7 +831,7 @@ public class Hotel extends JFrame implements ActionListener{
                 e.printStackTrace();
             }
         } catch(Exception e) {
-            dateformat();
+            JOptionPane.showMessageDialog(null, "공백 또는 날짜 형식을 확인하세요.");
         }
     }
 
@@ -1019,13 +845,13 @@ public class Hotel extends JFrame implements ActionListener{
             PreparedStatement stmt = dbTest.prepareStatement(sqlStr);
             ResultSet rs = stmt.executeQuery();
             if(!rs.next()) {
-                not_reserve();
+                JOptionPane.showMessageDialog(null, "예약이 존재하지 않습니다.");
             }
             else {
                 sqlStr = "delete from RESERVATION where customer_name = '"+name+"'and days="+days+"and room='"+room+"'and checkin='"+checkin+"'";
                 stmt = dbTest.prepareStatement(sqlStr);
                 rs = stmt.executeQuery();
-                reserve_cancel();
+                JOptionPane.showMessageDialog(null, "예약 취소 되었습니다.");
             }
             stmt.close();
             rs.close();
@@ -1191,7 +1017,7 @@ public class Hotel extends JFrame implements ActionListener{
         String address = (String) new_customer_addressbox.getSelectedItem();
         String phone = new_customer_phonetext.getText();
         if(name.isEmpty() || phone.isEmpty()) {
-            dateformat();
+            JOptionPane.showMessageDialog(null, "공백 또는 날짜 형식을 확인하세요.");
         }
         else {
             try {
@@ -1203,10 +1029,10 @@ public class Hotel extends JFrame implements ActionListener{
                     sqlStr = "insert into CUSTOMER values('"+name+"','"+sex+"','"+address+"','"+phone+"')";
                     stmt = dbTest.prepareStatement(sqlStr);
                     rs = stmt.executeQuery();
-                    registerok();
+                    JOptionPane.showMessageDialog(null, "등록 되었습니다.");
                 }
                 else {
-                    override_date();
+                    JOptionPane.showMessageDialog(null, "이미 존재합니다.");
                 }
                 stmt.close();
                 rs.close();
@@ -1345,7 +1171,7 @@ public class Hotel extends JFrame implements ActionListener{
         String address = (String) new_client_addressbox.getSelectedItem();
         String phone = new_client_phonetext.getText();
         if(name.isEmpty() || phone.isEmpty()) {
-            dateformat();
+            JOptionPane.showMessageDialog(null, "공백 또는 날짜 형식을 확인하세요.");
         }
         else {
             try {
@@ -1357,10 +1183,10 @@ public class Hotel extends JFrame implements ActionListener{
                     sqlStr = "insert into CLIENT values('"+name+"','"+sex+"','"+address+"','"+phone+"')";
                     stmt = dbTest.prepareStatement(sqlStr);
                     rs = stmt.executeQuery();
-                    registerok();
+                    JOptionPane.showMessageDialog(null, "등록 되었습니다.");
                 }
                 else {
-                    override_date();
+                    JOptionPane.showMessageDialog(null, "이미 존재합니다.");
                 }
                 stmt.close();
                 rs.close();
